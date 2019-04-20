@@ -1,0 +1,275 @@
+.login-register-header {
+    @extend .row;
+    margin-bottom: $sc-margin-lv4;
+    margin-top: $sc-margin-lv4 * 2;
+}
+
+.login-register-title {
+    @extend .col-xs-12;
+    color: $ob-color-primary;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-register-body {
+    @extend .row;
+}
+
+.login-register-body-colored {
+    @extend .login-register-body;
+    background-color: $sc-color-theme-background;
+
+    padding: $sc-padding-lv8 $sc-padding-lv1;
+
+    @media (min-width: $screen-md-min) {
+        padding: $sc-padding-lv8 $sc-padding-lv5;
+    }
+}
+
+.login-register-wrapper-column-login,
+.login-register-wrapper-column-register {
+    @extend .col-xs-12;
+    @extend .col-sm-6;
+
+}
+
+.login-register-wrapper-login,
+.login-register-wrapper-register {
+    @extend .box-column;
+        padding-left: 40px;
+    background-color: #e5e5e5e;
+
+    @media (max-width: $screen-sm-min) {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+}
+
+.login-register-wrapper-register {
+    @media (max-width: $screen-sm-min) {
+        margin: 1px;
+        margin-bottom: 20px;
+    }
+}
+
+.login-register-wrapper-guest {}
+
+.login-register-title-register {}
+
+/////////////////////////////JJ///////////////////////////////////////
+.login-register-wrapper-register {
+    background-color: #e5e5e5e;
+}
+
+.Registerbox {
+    display: inline-block;
+}
+
+.Registerbox-head {
+    font-size: 20px;
+    font-weight: 600;
+    color: $ob-color-secondary;
+    margin-top: -3%;
+}
+.login-register-wrapper-login new-login-container{
+@media (min-width: $screen-md-min) {
+margin-bottom: 7px;
+padding: 39px;
+}
+    display:none;
+}
+.Registerbox-content {
+ @media (min-width: $screen-sm-min) {
+    padding-top: 5px;
+    font-size:11px;
+    }
+@media (min-width: $screen-md-min) {
+    padding-top: 3px;
+    font-size:13px;
+    }
+@media (min-width: $screen-lg-min) {
+    padding-top: 16px;
+    font-size:14px;
+    line-height: 2.3em;
+    margin-top: 1%;
+    }
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 2.3em;
+    margin-top: 1%;
+    color: $ob-color-primary;
+}
+.login-register-login-submit {
+@media (min-width: $screen-lg-min) {
+    border-radius: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 600;
+    }
+    @media (min-width: $screen-sm-min) {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+}
+
+.Registerbox-btn {
+    @extend .login-register-login-submit;
+    background-color: #ef7622;
+    border-color: #ef7622;
+    padding: 20px 36px;
+
+    @media (min-width: 320px) {
+        padding: 20px 15px;
+    }
+
+    @media (min-width:360px) {
+        padding: 20px 35px;
+
+    }
+    @media (min-width: $screen-sm-min) {
+        padding: 10px 7px;
+        font-size: 14px;
+    }
+    @media (min-width: $screen-md-min) {
+        padding: 13px 7px;
+        font-size: 14px;
+        }
+    @media (min-width: $screen-lg-min) {
+    padding: 17px 31px;
+    }
+
+}
+
+.reghead {
+    @extend .login-register-title;
+    color: $ob-color-primary;
+}
+
+.login-register-title-register {
+    color: #00a7ce;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.login-register-description-register {
+    line-height: 2.1em;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.new-login-container {
+    @media (min-width: $screen-xs-min) {
+        min-height: 330px;
+       margin-bottom: 0px;
+    }
+
+    @media (min-width: $screen-sm-min) {
+        min-height: 625px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: $screen-md-min) {
+        min-height: 580px;
+        padding: 39px;
+    }
+}
+
+.Registerbox-button {
+    margin-top: 20px;
+    @media (min-width: $screen-sm-min) {
+        position: absolute;
+        bottom: 76px;
+        margin-top: 0px;
+    }
+    @media (min-width: $screen-lg-min) {
+    bottom: 57px;
+    }
+    @media (min-width: $screen-sm-min) {
+    bottom:37px;
+    }
+@media (min-width: 900px) and (max-width: 992px){
+    bottom:54px;
+    }
+}
+
+.Registerbox-button {
+@media (min-width: $screen-lg-min){
+    margin-bottom: -3px;
+    }
+    @media (min-width: $screen-md-min) {
+       font-size: 12px;
+       bottom: 58px;
+
+}
+}
+
+.register-box-image {
+    display: inline-block;
+    position: absolute;
+    bottom: 55px;
+    width: 24%;
+    opacity: 0.2;
+
+   
+}
+
+
+.register-box-image-set {
+
+   
+    @media (min-width: $screen-sm-min) {
+    width: 24%;
+    }
+    @media (min-width: $screen-md-min) {
+    width: 29%;
+    }
+     @media (min-width: $screen-lg-min){
+    width: 24%;
+    }
+    @media (max-width: 767px){
+    display: none;
+    }
+    margin-right: -6px;
+    margin-top: -8%;
+    width: 23%;
+    float: right;
+    opacity: 0.2;
+
+}            
+
+.register-box-image1{
+@media (min-width: $screen-sm-min){
+  
+    bottom: 18px;
+    left: 283px;
+    width: 18%;
+    }
+    @media (min-width: 900px) and (max-width: 992px){
+    bottom: 21px;
+    left: 353px;
+    width: 18%;
+    }
+
+    @media (min-width: $screen-md-min){
+    bottom: 19px;
+    left: 328px;
+    width: 24%;
+    }
+    @media (min-width: $screen-lg-min){
+    bottom: 21px;
+    left: 428px;
+    width: 20%;
+    }
+    @media (max-width: 767px){
+    display:none;
+    }
+    opacity: 0.2;
+    position:absolute;
+    
+         
+}

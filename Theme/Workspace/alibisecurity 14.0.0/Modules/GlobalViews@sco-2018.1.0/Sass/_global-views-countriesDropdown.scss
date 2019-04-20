@@ -1,0 +1,27 @@
+.global-views-countriesDropdown-group-label {
+}
+
+.global-views-countriesDropdown-select {
+    @extend .input-large
+}
+
+.global-views-countriesDropdown-input-required{
+	@extend .input-required;
+}
+
+.global-views-countriesDropdown-form-controls{}
+
+//JJ- This might affect the My-Accounts. So if required call using parent class//
+.global-views-countriesDropdown-group-label {
+	margin-bottom: 5px;
+    color: #435363;
+    font-weight: 500;
+    font-size: 14px;
+}
+select.global-views-countriesDropdown-select{
+	width: 100% !important;
+    background-color: #ededed !important;
+    border: none !important;
+    min-width: 0px !important;
+    height: 40px;
+}

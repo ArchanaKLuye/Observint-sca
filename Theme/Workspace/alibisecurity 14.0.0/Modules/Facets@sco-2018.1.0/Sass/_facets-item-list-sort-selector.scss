@@ -1,0 +1,21 @@
+.facets-item-list-sort-label {
+    margin-bottom: 0px;
+    display: inline-block;
+    color: $ob-color-primary;
+}
+
+.facets-item-list-sort-selector {
+    @extend .list-header-filter-input;
+    color: $ob-color-secondary;
+    display: inline-block;
+    border-color: #fff;
+
+    @media (max-width: $screen-md-min) {
+        background-color: $ob-color-secondary;
+        color: #fff;
+    }
+
+    @media (min-width: 768px) and (max-width: 769px) {
+        width: 80%
+    }
+}

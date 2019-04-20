@@ -1,0 +1,237 @@
+// Header Top - Links
+@mixin header-top-links {
+  font-size: $theme-xs-font-size;
+  font-weight: $theme-font-weight-normal !important;
+  color: $theme-header-ft-color-secondary;
+  line-height: normal;
+  height: auto;
+  text-transform: uppercase;
+  padding: 4px $sc-base-padding * 2;
+  display: inline-block !important;
+  //font-family: $font-family-primary;
+  font-family: 'Open Sans',
+sans-serif;
+}
+
+@mixin banner-font-shadow {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 1px #fff;
+}
+
+// Selection
+@mixin selection($color, $background) {
+  $prefixes: ("-moz-", "-webkit-", "-o-", "-ms-", "");
+  @each $prefix in $prefixes {
+    &::#{$prefix}selection {
+      color: $color;
+      background: $background;
+    }
+  }
+}
+
+// Buttons
+@mixin btn ($btn-color) {
+  text-transform: uppercase;
+  @include transition-duration(.2s);
+  @include transition-timing-function(ease);
+  border: 1px solid $btn-color;
+  background: $btn-color;
+  color: $theme-tertiary-color;
+  font-size: $theme-sm-font-size;
+  font-family: $font-family-primary;
+  &:hover,
+  &:active,
+  &:focus {
+    background: transparent;
+    color: $btn-color;
+  }
+  &:disabled {
+    color: $theme-tertiary-color;
+    background-color: $btn-color;
+    opacity: 0.5;
+    border: none;
+  }
+}
+
+//3D Buttons
+@mixin btn-3d ($padding-btn) {
+  background-color: $sc-color-primary;
+  cursor: pointer;
+  padding: ($padding-btn);
+  display: inline-block;
+  outline: 0;
+  box-shadow: 0 6px $sc-color-primary-dark;
+  border: none;
+  color: $theme-accent-color;
+  position: relative;
+  font-size: 20px;
+  font-weight: $sc-font-weight-semibold;
+  border-radius: 0 0 $border-radius-large $border-radius-large;
+  text-transform: uppercase;
+  &:active,
+  &:hover {
+    top: 6px;
+    box-shadow: 0 0 $sc-color-primary-dark;
+  }
+}
+
+//Parallax
+@mixin parallax-back ($parallax-type) {
+  $prefixes: ("-moz-", "-webkit-", "-o-", "-ms-", "");
+  @each $prefix in $prefixes {
+    #{$prefix}background-size: $parallax-type;
+  }
+}
+
+//Custom colors
+@mixin custom-colors-small {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    // small colors
+    a.product-views-option-color-picker,
+    div.product-views-option-color-picker {
+        width: 22px;
+        display: inline-block;
+        margin-right: -4px;
+        div.product-views-option-color-picker {
+        margin: 0;
+        }
+        span.product-views-option-color-picker-box   {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          top: -3px;
+          &:hover {
+            height: 14px;
+            width: 14px;
+            top: -3px;
+            margin-left: 1px;
+            &:before {
+                content: ' ';
+              display: block;
+              position: absolute;
+              border: solid 1px $theme-secondary-color;
+              z-index: 10;
+              border-radius: 50%;
+              padding: 4px;
+              top: -4px;
+              left: -4px;
+              height: 12px;
+              width: 12px;
+            }
+          }
+        }
+        img.product-views-option-color-picker-box-img {
+          padding: 3px;
+          border-radius: 50%;
+          overflow: hidden;
+          &:hover,
+          &.active  {
+          border: 1px solid $theme-secondary-color;
+            border-radius: 50%;
+            outline: none;
+          }
+        }
+    }
+}
+
+@mixin custom-colors {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    // small colors
+    div.product-views-option-color-picker,
+    a.product-views-option-color-picker {
+        width: 36px;
+        display: inline-block;
+        margin-right: 0;
+        div.product-views-option-color-picker {
+          margin: 0;
+        }
+        span.product-views-option-color-picker-box   {
+          width: 29px;
+          height: 29px;
+          border-radius: 50%;
+          top: -3px;
+          &:before {
+            display: none;
+          }
+          &:hover,
+          &.active  {
+            height: 27px;
+            width: 27px;
+            top: -3px;
+            margin-left: 1px;
+            &:before {
+                content: ' ';
+              display: block;
+              position: absolute;
+              border: solid 1px $theme-secondary-color;
+              z-index: 10;
+              border-radius: 50%;
+              padding: 4px;
+              top: -4px;
+              left: -4px;
+              height: 25px;
+              width: 25px;
+            }
+          }
+        }
+        img.product-views-option-color-picker-box-img {
+          padding: 3px;
+          border-radius: 50%;
+          overflow: hidden;
+          &:hover,
+          &.active {
+            border: 1px solid $theme-secondary-color;
+            border-radius: 50%;
+            outline: none;
+          }
+        }
+    }
+}
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+%scroll-y{
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+// avoid using BS mixin cause wont generate "-webkit-transform"
+@mixin transition-transform($duration...) {
+	-webkit-transition: -webkit-transform $duration;
+	-moz-transition: -moz-transform $duration;
+	-o-transition: -o-transform $duration;
+	transition: transform $duration;
+}
+
+@mixin appearance($appearance) {
+	-webkit-appearance: $appearance;
+	-moz-appearance: $appearance;
+	appearance: $appearance;
+}
+
+//used for select arrow down
+@mixin angle-down-background($color){
+	$color-local: remove-hash-from-color($color);
+	background-image:url("data:image/svg+xml;utf8,<svg width='2000px' height='2000px' fill='%23#{$color-local}' xmlns='http://www.w3.org/2000/svg'><path d='M1075 352q0 -13 -10 -23l-50 -50q-10 -10 -23 -10t-23 10l-393 393l-393 -393q-10 -10 -23 -10t-23 10l-50 50q-10 10 -10 23t10 23l466 466q10 10 23 10t23 -10l466 -466q10 -10 10 -23z'/></svg>");
+}
+
+
+@function remove-hash-from-color($color) {
+	@return str-slice(ie-hex-str($color), 4);
+}
+
+//All placeholders equal
+@mixin placeholder {
+	&::-webkit-input-placeholder {@content}
+	&:-moz-placeholder           {@content}
+	&::-moz-placeholder          {@content}
+	&:-ms-input-placeholder      {@content}
+}

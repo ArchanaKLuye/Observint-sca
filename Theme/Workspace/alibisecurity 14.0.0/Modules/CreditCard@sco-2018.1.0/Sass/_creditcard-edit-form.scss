@@ -1,0 +1,189 @@
+
+input.savecreditcard{
+    height: 17px;
+    width: 17px;
+}
+.creditcard-edit-form-required {
+    @extend .input-required
+}
+
+.creditcard-edit-form-controls p {
+    float: left;
+    clear: both;
+}
+//Modal CreditCardDetailsView
+.global-views-modal-content .global-views-modal-content-body {
+
+    .creditcard-edit-form-controls-img-container {
+        margin-top: 0;
+    }
+}
+
+.creditcard-edit-form-controls-img-container {
+    margin-top: $sc-margin-lv3;
+    margin-bottom: $sc-margin-lv2
+}
+
+.creditcard-edit-form-card-icon {
+    border:0px solid $sc-color-theme-border-light;
+    width:auto;
+    height:$sc-target-size-mobile;
+}
+
+.creditcard-edit-form-label {
+    width: 30%;
+    font-family: $sc-font-family;
+    color: $ob-color-primary;
+    margin: 0px;
+     @media (min-width: 320px) {
+            width: 42%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+           width: 36%;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 30%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+           width: 30%;
+        }
+}
+
+.creditcard-edit-form-label-required {
+    @extend .input-required
+}
+
+.creditcard-edit-form-input {
+    @extend .input-large
+}
+
+.creditcard-edit-form-label-year{
+    font-family: $sc-font-family;
+    color: $ob-color-primary;
+    margin: 0px;
+}
+
+.creditcard-edit-form-label-month{
+    font-family: $sc-font-family;
+    color: $ob-color-primary;
+    margin: 0px;
+}
+
+.creditcard-edit-form-select {
+    @extend .input-small;
+    display: inline-block;
+    margin-right:82px;
+    //width: 20%;
+    width: 100%;
+    background-color: $ob-color-tertiry;
+    border-color:$ob-color-tertiry;
+     @media (min-width: 320px) {
+           margin-right:50px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+           margin-right:82px;
+        }
+
+        @media (min-width: $screen-md-min) {
+           margin-right:82px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-right:82px;
+        }
+}
+
+.creditcard-edit-form-button-submit {
+    @extend .address-edit-form-button-submit;
+}
+
+.creditcard-edit-form-button-cancel {
+    @extend .address-edit-form-button-cancel;
+}
+
+.creditcard-edit-form-button-reset {
+    @extend .address-edit-form-button-reset;
+}
+
+.creditcard-edit-form-checkbox {
+    
+    display: inline-block;
+    font-family: $sc-font-family;
+    color: $ob-color-primary;
+    padding-top: 15px;
+}
+
+.creditcard-edit-form-controls-cc-select-container {
+    display:none;
+}
+
+.creditcard-edit-form-controls-cc-select-label {
+    @extend .sc-label;
+    display:block;
+    margin-bottom:$sc-margin-lv2;
+}
+
+.creditcard-edit-form-controls-cc-select {
+    @extend .input-large;
+}
+input.creditcard-edit-form-input{
+    background-color:$ob-color-tertiry;
+    border:none;
+    width: 100%;
+}
+
+.cc-date{
+    padding: 0px;
+}
+
+.cc-month{
+    padding-left: 0px;
+}
+.cc-year{
+    padding-right: 0px;
+}
+
+.creditcard-edit-form-checkbox{
+    display: flex;
+    input[type=checkbox] {
+             position: relative;
+               cursor: pointer;
+        }
+        input[type=checkbox]:before {
+             content: "";
+             display: block;
+             position: absolute;
+             width: 13px;
+             height: 13px;
+             //top: -1px;
+             left: 0;
+             border: 2px solid #435363;
+             border-radius: 4px;
+             background-color: white;
+             //bottom: -8px;
+        }
+        input[type=checkbox]:checked:after {
+             content: "";
+             display: block;
+             width: 3px;
+             height: 6px;
+             border: solid black;
+             border-width: 0 2px 2px 0;
+             -webkit-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             position: absolute;
+             top: 4px;
+             left: 6px;
+        }
+    
+}
+
+.default-cc-text{
+    margin-top: -3px;
+    font-size: 14px;
+}

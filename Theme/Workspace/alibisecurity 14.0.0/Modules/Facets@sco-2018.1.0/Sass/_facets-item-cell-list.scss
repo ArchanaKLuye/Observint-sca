@@ -1,0 +1,211 @@
+.facets-item-cell-list {
+    @extend .row;
+    @extend .item-cell;
+
+    .cart-add-to-cart-button-container {
+        padding-left: 0px;
+         @media (min-width: 320px) {
+            width:100%;
+         }
+         @media (min-width: $screen-md-min) {
+            width: 52%;
+        }
+        @media (min-width: $screen-md-min) {
+            width: 52%;
+        }
+        @media (min-width: $screen-lg-min) {
+            width: 43%;
+        }
+    }
+
+    .cart-quickaddtocart-price {
+        margin-bottom: $sc-margin-lv2;
+    }
+
+    .product-line-stock {
+        clear: both;
+    }
+}
+
+.facets-item-cell-list-quick-view-wrapper {
+    @extend .item-cell-quick-view-wrapper;
+}
+
+.facets-item-cell-list-quick-view-link {
+    @extend .item-cell-quick-view-link;
+    background-color: #ef7622;
+    border-color: #ef7622;
+}
+
+.facets-item-cell-list-left {
+    @extend .col-xs-3;
+}
+
+.facets-item-cell-list-right {
+    @extend .col-xs-9;
+
+    .item-views-price {
+        text-align: left;
+    }
+}
+
+.facets-item-cell-list-image-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.facets-item-cell-list-stock-message {
+    text-align: left;
+}
+
+.facets-item-cell-list-anchor {}
+
+.facets-item-cell-list-quick-view-icon {}
+
+.facets-item-cell-list-name {
+    color: #00a7ce;
+}
+
+.facets-item-cell-list-add-to-cart {}
+
+.facets-item-cell-list-add-to-cart-itemid {}
+
+.facets-item-cell-list-add-to-cart-quantity {}
+
+.facets-item-cell-list-add-to-cart-button {}
+
+.facets-item-cell-list-stock {}
+
+.facets-item-cell-list-details {
+    text-align: unset;
+}
+
+.facets-item-cell-list-image {
+    width: 100%;
+    height: auto;
+}
+
+.facets-item-cell-list-title {
+    @extend .item-cell-title;
+    text-align: left;
+    color: $ob-color-secondary;
+    font-family: $font-family-secondary;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.facets-item-cell-list-price {
+    @extend .small-price;
+    margin-bottom: $sc-margin-lv2;
+}
+
+.facets-item-cell-list-rating {
+    text-align: center;
+    display: inline-block;
+}
+
+
+.facets-item-cell-list {
+    .global-views-star-rating-area {
+        margin-bottom: $sc-margin-lv2;
+    }
+}
+
+.facet-item-cell-list-sku {
+    @extend .facet-item-cell-grid-sku;
+}
+
+.cart-add-to-cart-button-button {
+    padding: 20px 20px;
+    background-color: $ob-color-accent;
+    border-color: $ob-color-accent;
+    border-radius: 0px;
+
+    @media (min-width: 320px) {
+        font-size: 12px;
+    }
+    @media (min-width: $screen-sm-min) {
+        font-size: 14px;
+    }
+    @media (min-width: $screen-md-min) {
+        font-size: 14px;
+    }
+    @media (min-width: $screen-lg-min) {
+       font-size: 14px;
+    }
+}
+.facets-item-cell-list{
+    
+    .cart-add-to-cart-button-button {
+        @media (min-width: 320px) { 
+        padding: 12px 15px 7px 15px !important;}
+        @media (min-width: $screen-sm-min) { 
+        padding: 12px 15px 7px 15px !important;}
+        @media (min-width: $screen-md-min) { 
+        padding: 12px 15px 7px 15px !important;}
+    @media (min-width: $screen-lg-min ) {
+    padding: 12px 15px 7px 15px !important;
+    }
+    
+    }
+
+}
+
+.facets-item-cell-grid-quick-addtocomapre{
+    display: inline-flex;
+     @media (min-width: 320px) {
+        display: inline-block;
+     }
+
+}
+.facets-item-cell-list-details {
+    @extend .facets-item-cell-grid-details;
+    display: table;
+}
+
+
+.facet-item-add-list {
+    @extend .facet-item-add;
+    width: auto;
+
+}
+
+#facet-facet-product-compare-list {
+    @extend #facet-facet-product-compare;
+   /*  margin: 4px; */
+}
+
+.addtocomapre-text-list {
+    @extend .addtocomapre-text;
+    font-size: $ob-font-size-sh5;
+    margin: 0px 10px;
+}
+
+.facets-item-cell-list-quick-view-link-quickview {
+    @extend .facets-item-cell-grid-quick-view-link-quickview;
+
+    padding-left: 0px;
+
+    @media (min-width: $screen-lg-min) {
+        padding-left: 6px;
+    }
+}
+
+.facet-item-quick-view-list {
+    display: inline-block;
+}
+
+.facet-item-quick-view-icon-list {
+    @extend .facet-item-quick-view-icon;
+    float: left;
+    width:9% !important;
+
+}
+
+.facets-item-cell-grid-quick-view-txt-list {
+    @extend .facets-item-cell-grid-quick-view-txt;
+    font-size: $ob-font-size-sh5;
+    margin: 0px 10px;
+    float: none;
+}

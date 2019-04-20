@@ -1,0 +1,14 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Facets@sco-2018.1.0/JavaScript/Facets.ItemCell.View.js": "JavaScript/Facets.ItemCell.View.js",
+        "suitecommerce/Facets@sco-2018.1.0/JavaScript/Facets.CategoryCell.View.js": "JavaScript/Facets.CategoryCell.View.js"
+
+    }
+}

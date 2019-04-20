@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/OrderWizard.Module.Address@sco-2018.1.0/JavaScript/OrderWizard.Module.Address.js": "JavaScript/OrderWizard.Module.Address.js"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "credentials": {
+        "email": "rosemolj@valueglobal.net",
+        "account": "4299000_SB1",
+        "role": 1059,
+        "hostname": "4299000-sb1.restlets.api.netsuite.com",
+        "website": "2",
+        "domain": "www.alibisecurity.ml",
+        "webapp_id": "505697",
+        "target_folder": "505697",
+        "roleId": 1059
+    }
+}

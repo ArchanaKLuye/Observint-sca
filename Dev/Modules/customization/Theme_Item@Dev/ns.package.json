@@ -1,0 +1,14 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Item@sco-2018.1.0/JavaScript/Item.KeyMapping.js": "JavaScript/Item.KeyMapping.js",
+        "suitecommerce/Item@sco-2018.1.0/JavaScript/Item.Model.js": "JavaScript/Item.Model.js"
+    }
+
+}

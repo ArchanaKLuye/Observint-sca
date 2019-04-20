@@ -1,0 +1,237 @@
+
+.order-wizard-shipmethod-module-checkbox input[type='radio']:checked {
+  display: none;
+}
+input.radio-options-btn{
+      width: 20px;
+    height: 18px;
+  }
+  .radio-options-btn.active {
+  background-color: red;
+}
+.radio-options-label{
+  padding-right:20px;
+  padding-left:20px;
+  float: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.minu-accc-section-shipping-method{
+  padding: 0px 16px 0px 16px;
+    font-weight: 900;
+    font-size: 23px;
+    @media (min-width: 320px) {
+          font-size: 23px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             font-size: 23px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 23px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 26px;
+        }
+}
+  .accordion-section-shipping-method{
+  width: 100%;
+    margin-bottom: 20px;
+    display: inline-flex;
+    outline: none;
+    background:#e5e5e5;
+}
+.serial-shipping-method{
+   padding: 7px 18px 7px 18px;
+ font-size:1.47rem;
+   background: #ef7622;
+   font-weight: 700;
+    color: #fff;
+    margin-right: 20px;
+    @media (min-width: 320px) {
+           padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-md-min) {
+             padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 4px 14px 4px 14px;
+        }
+}
+#accor-plus-shipping-method{
+  float:right;
+  font-size: 14px;
+    padding: 13px;
+}
+.section-shipping-method{
+   
+    float: left;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  color:$ob-color-primary;
+  font-family: $sc-font-family;
+  @media (min-width: 320px) {
+           padding: 4px 3px 4px 3px;
+           font-size:17px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding: 0px 3px 0px 3px;
+            font-size:1.47rem;
+        }
+
+        @media (min-width: $screen-md-min) {
+           padding: 0px 3px 0px 3px;
+           font-size:1.47rem;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 3px 3px 3px 3px;
+            font-size:1.47rem;
+        }
+}
+.order-wizard-shipmethod-module{
+  @extend .box-column;
+  background-color:#fff;
+  padding:0px;
+}
+.radio-options-box{
+ display: inline-block;
+ padding:5px;
+ background-color:#ecedef;
+ width: 100%;
+ margin-bottom: 15px;
+ font-family: $sc-font-family;
+ color:$ob-color-primary;
+ font-weight: 600;
+ font-size: 14px;
+
+}
+.order-wizard-shipmethod-module-title{
+  margin-bottom: $sc-margin-lv4;
+}
+
+.order-wizard-shipmethod-module-message{
+  @extend .message-warning;
+}
+
+.order-wizard-shipmethod-module-option-select{
+  @extend .input-large;
+}
+
+.order-wizard-shipmethod-module-option{
+  color:$ob-color-primary;
+  display: block;
+  padding:5px;
+  //margin-bottom: $sc-margin-lv2;
+  margin-bottom:15px;
+  cursor: pointer;
+  background-color:#ecedef;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: $sc-font-family;
+}
+
+.order-wizard-shipmethod-module-option-active {
+  //background-color: $sc-neutral-shade-0;
+  background-color: #ecf8f4;
+  
+
+}
+
+.order-wizard-shipmethod-module-checkbox{
+  margin-right: $sc-margin-lv2;
+  width: 20px;
+    height: 18px;
+}
+
+input.order-wizard-shipmethod-module-checkbox{
+      width: 20px;
+    height: 18px;   
+  }
+
+.order-wizard-shipmethod-module-option-price{
+  float: right;
+  font-size:16px;
+  font-weight:700;
+}
+
+.order-wizard-msr-shipmethod-module-message{
+  @extend .message-warning;
+}
+
+.order-wizard-msr-shipmethod-package-message-icon{
+  @extend .icon-base;
+  @extend %fa-exclamation-triangle;
+}
+
+.order-wizard-shipmethod-module-option-name{}
+
+a:hover { 
+  color: #435363;
+}
+
+.plus{
+  &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_big.png");
+        position: relative;
+        //top: 4px;
+        //left: -5px;
+    }
+}
+
+.minus{
+  &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/minus.png");
+        position: relative;
+        //top: 4px;
+        //left: -5px;
+    }
+}
+
+
+input[type='radio'] {
+        -webkit-appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        outline: none;
+        border: 2px solid gray;
+        display: inline-table;
+    }
+
+    input[type='radio']:before {
+        content: '';
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 22% auto;
+        border-radius: 50%;
+    }
+
+ input[type="radio"]:checked:before {
+        background: green;
+        
+    }
+    
+    input[type="radio"]:checked {
+      border-color:green;
+    }
+
+    
+
+
+
+
+
+
+

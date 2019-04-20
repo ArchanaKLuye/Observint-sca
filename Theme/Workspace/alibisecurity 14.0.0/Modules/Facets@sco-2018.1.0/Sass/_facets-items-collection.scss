@@ -1,0 +1,28 @@
+.facets-items-collection-view-cell-span3{
+ 
+@media (min-width: $screen-sm-min) {
+            width:30.33%;
+            padding: $sc-padding-base * 3;
+            margin: $sc-margin-base * 2;
+            padding-bottom: 0px;
+            background-color: $theme-tertiary-color;
+            min-height: 425px;
+        }
+        
+        @media (min-width: $screen-lg-min) {
+        min-height: 455px;
+        }
+	
+}
+
+.facets-items-collection-view-cell-span6{
+ 
+@media (max-width: $screen-sm-min) {
+            width:45%;
+            padding: $sc-padding-base * 2;
+            margin: $sc-margin-base;
+            background-color: $theme-tertiary-color;
+            min-height: 325px;
+        }
+}
+

@@ -1,0 +1,52 @@
+.address-list {
+    @extend .address-edit;
+    background-color: white;
+   
+}
+.address-list-default-addresses,
+.address-list-other-addresses {
+	.backbone-collection-view-cell-span6 {
+		margin-bottom: $sc-margin-lv6;
+
+        .address-details {
+            border: none;
+        }
+	}
+}
+.address-list-button-container {
+    margin: 0 0 $sc-margin-lv6 0;
+}
+.address-list-button-info-cards-new {
+    @extend .button-info-cards-new
+}
+.address-list-button-back {
+    @extend .button-back;
+}
+.address-list-button-back-icon {
+    @extend .button-back-icon;
+}
+
+.address-list-pageheader{
+    font-size: 22px;
+    font-weight: 600;
+    color: #00a7ce;
+}
+
+.address-list-newcontact{
+    border-radius: 0px;
+        background:$ob-color-primary;
+        text-transform:uppercase;
+        padding: 10px 30px 10px 30px;
+        font-weight: 600;
+        color: white;
+    
+    &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_button1.png");
+        position: relative;
+        top: 4px;
+        left: -10px;
+    }
+    &:hover{
+        color: white;
+    };
+}

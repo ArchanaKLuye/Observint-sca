@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/ProductReviews@sco-2018.1.0/JavaScript/ProductReviews.js": "JavaScript/ProductReviews.js"
+    }
+}

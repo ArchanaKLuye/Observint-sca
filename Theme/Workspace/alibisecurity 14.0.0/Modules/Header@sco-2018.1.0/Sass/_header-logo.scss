@@ -1,0 +1,127 @@
+.header-logo {
+    display: block;
+    line-height: $sc-main-nav-height;
+    height: $sc-main-nav-height;
+    margin-left: -$sc-margin-lv2;
+    width: 100%;
+    margin: 0px;
+    max-width: 100%;
+
+    /*@media (max-width: $screen-md-min) {
+        max-width:325%;
+        width:325%;
+    }*/
+
+    @media (min-width: $screen-xs-min) and (max-width: $screen-md-min) {
+       margin-bottom:10px;
+    }
+}
+
+.header-logo-image {
+    width: 100%; 
+    max-height: 50px;
+    vertical-align: top;
+    padding-right:5px;
+
+    @media (min-width: $screen-md-min) {
+        width: 100%;
+    }
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index:.1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content-check-out{
+    background-color: #fefefe;
+    margin: 7% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width:400px;
+    height:150px;
+    border-radius: 0px;
+    @media (max-width: 767px){
+    width: 320px;
+    height: 153px;
+    }
+
+}
+.close {
+    margin-top: -6%;
+    margin-right: -4%;
+    color: white;
+    float: right;
+    font-size: 34px;
+    font-weight: bold;
+    @media (max-width: 767px){
+    margin-top: -8%;
+    }
+    }
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.check-out-pop-up-header{
+    background-color: #00a7ce;
+    width: 111.9%;
+    margin-left: -5.9%;
+    margin-top: -6%;
+    padding: 4%;
+     @media (max-width: 767px){
+     width: 113.9%;
+    margin-left: -6.9%;
+    margin-top: -7%;
+     }
+}
+.check-out-pop-up-btn{
+    float: left;
+    margin-top: 9%;
+    margin-left: -2%;
+    width: 47%;
+    padding: 2% 0%;
+    background-color: #ef7622;
+    color: white;
+    font-weight: 600;
+    outline: none; 
+    @media (max-width: 767px){
+    margin-left: -5%;
+    width: 51%;
+  }
+}
+.check-out-pop-up-btn-1{
+    float: right;
+    margin-top: 9%;
+    margin-right: -2%;
+    width: 47%;
+    padding: 2% 0%;
+    background-color: #435363;
+    color: white;
+    font-weight: 600;
+    outline: none; 
+    @media (max-width: 767px){
+    margin-right: -5%;
+    width: 51%;
+    }
+}
+.check-out-pop-up-header-btn-container{
+    display: inline;
+}
+#check-out-pop-up-para{
+color: white;
+font-weight: 600; 
+text-align: left;   
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.header-logo-sitename {}

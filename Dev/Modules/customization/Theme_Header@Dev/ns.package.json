@@ -1,0 +1,14 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Header@sco-2018.1.0/JavaScript/Header.View.js": "JavaScript/Header.View.Extension.js",
+        "suitecommerce/Header@sco-2018.1.0/JavaScript/Header.Profile.View.js": "JavaScript/Header.Profile.View.js"
+
+    }
+}

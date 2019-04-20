@@ -1,0 +1,24 @@
+.quickorder-accesspoints-headerlink-link {
+    display: inline;
+    color: $sc-color-secondary;
+    &::before { //UIfix        
+    content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/headicon_video.svg");
+    position: relative;
+    top: 2px;
+    left: -5px;
+    }
+}
+
+.quickorder-accesspoints-icon {
+    content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/headicon_video.svg");
+    color: $sc-color-secondary;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    @media(min-width: $screen-sm-min) {
+        float:none;
+        font-size: 15px;
+        margin-right: $sc-margin-lv1;
+        position: static;
+    }
+}

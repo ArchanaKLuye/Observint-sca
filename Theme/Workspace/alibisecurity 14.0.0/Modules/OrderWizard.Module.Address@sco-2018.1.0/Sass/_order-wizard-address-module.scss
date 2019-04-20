@@ -1,0 +1,366 @@
+
+input.same-as-billing{
+  //width: 18px;
+    //height: 24px;
+    //border:5px soild red;
+ }
+  .minu-accc-section-shipping-address{
+	padding: 0px 16px 0px 16px;
+    font-weight: 900;
+    @media (min-width: 320px) {
+          font-size: 23px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             font-size: 23px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 23px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 26px;
+        }
+	}
+	.minu-accc-section-billing-address{
+	padding: 0px 16px 0px 16px;
+    font-weight: 900;
+    font-size: 23px;
+}
+.serial-shipping-address{
+ font-size:1.47rem;
+   background: #ef7622;
+   font-weight:700;
+    color: #fff;
+    margin-right: 20px;
+    @media (min-width: 320px) {
+           padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 4px 14px 4px 14px;
+        }
+}
+.serial-billing-address{
+ font-size:1.47rem;
+   background: #ef7622;
+   font-weight: 100%;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: 700;
+    @media (min-width: 320px) {
+           padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 0px 14px 0px 14px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 4px 14px 4px 14px;
+        }
+}
+.section-billing-address{
+  
+    float: left;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  color:$ob-color-primary;
+  font-family: $sc-font-family;
+  
+   @media (min-width: 320px) {
+           padding: 4px 3px 4px 3px;
+           font-size:17px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding: 0px 3px 0px 3px;
+            font-size:1.49rem;
+        }
+
+        @media (min-width: $screen-md-min) {
+           padding: 0px 3px 0px 3px;
+           font-size:1.49rem;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 3px 3px 3px 3px;
+            font-size:1.49rem;
+        }
+}
+.section-shipping-address{ 
+  float: left;
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  color:$ob-color-primary;
+ font-family: $sc-font-family;
+  @media (min-width: 320px) {
+           padding: 4px 3px 4px 3px;
+           font-size:17px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding: 0px 3px 0px 3px;
+             font-size:1.47rem;
+        }
+
+        @media (min-width: $screen-md-min) {
+           padding: 0px 3px 0px 3px;
+            font-size:1.47rem;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 3px 3px 3px 3px;
+             font-size:1.47rem;
+        }
+}
+#accor-plus-billing-address{
+	float:right;
+	padding:13px;
+}
+#accor-plus-shipping-address{
+	float:right;
+	padding:13px;
+}
+.accordion-section-shipping-address{
+	width: 100%;
+	display: inline-flex;
+	margin-bottom: 15px;
+	outline: none;
+	background:#e5e5e5;
+}
+.accordion-section-billing-address{
+	width: 100%;
+	display: inline-flex;
+	margin-bottom: 15px;
+	outline: none;
+	background:#e5e5e5;
+}
+.order-wizard-address-module-change-button{
+	@extend .button-tertiary;
+	@extend .button-small;
+}
+
+.order-wizard-address-module-edit-button{
+	@extend .button-tertiary;
+	@extend .button-small;
+}
+
+.order-wizard-address-module-new-button{
+	@extend .button-secondary;
+	@extend .button-medium;
+	margin-bottom: $sc-margin-lv6;
+}
+
+.order-wizard-msr-addresses-module-new-button{
+	@extend .order-wizard-address-module-new-button;
+}
+
+.order-wizard-address-module-form-placeholder{
+	.address-edit {
+		padding: 0;
+		margin: 0;
+	}
+}
+#defaultaddressess{
+	display: none;
+}
+#billing{
+	width: 100%;
+	float: left;
+    margin-bottom: 3%;
+    border:none;
+    background-color:#ecf8f4;
+    
+    color:$ob-color-primary;
+  font-family: $sc-font-family;
+}
+#billing option{
+    width:150px ! important;
+   
+}
+.order-wizard-address-module-save-button{
+	@extend .button-primary;
+	@extend .button-small;
+	.order-wizard-address-module-title{
+	margin-bottom: $sc-margin-lv2;
+}
+}
+#shipping{
+//font-weight: 600;
+	width: 100%;
+	float: left;
+    margin-bottom: 3%;
+     border:none;
+    background-color:#ecf8f4;
+    color:$ob-color-primary;
+ font-family: $sc-font-family;
+}
+
+
+
+.order-wizard-address-module-address-container{
+	background: $sc-color-theme-background;
+	clear:both;
+	display:block;
+	overflow:hidden;
+	.order-wizard-address-row:last-child {
+		margin-bottom: 0;
+	}
+}
+.text-billing-address{
+	display: inline-block;
+	font-size:1rem;
+	margin-bottom: 20px;
+  font-family: $sc-font-family;
+  font-weight: 600;
+  color:#435363;
+
+}
+.text-shipping-address{
+   display: inline-block;
+	font-size:1rem;
+	margin-bottom: 20px;
+  font-family: $sc-font-family;
+  font-weight: 600;
+  color:#435363;
+}
+.order-wizard-address-module-show-addresses-container{
+	@extend .box-column;
+	overflow:hidden;
+	background:#fff;
+	padding:0px;
+	h5 {
+		text-transform:uppercase;
+		margin-bottom: $sc-margin-lv2;
+	}
+	.address-list-button-container{
+	display: inline-block;
+  margin: 0px;
+	.address-list-button-info-cards-new{
+		border-radius: 0px;
+		background:$ob-color-primary;
+		text-transform:uppercase;
+		padding: 10px 30px 10px 30px;
+		font-weight: 600;
+
+    &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_button1.png");
+        position: relative;
+        top: 4px;
+        left: -10px;
+    }
+	}
+}
+}
+.section-address-list-button-container{
+	font-weight: 700;
+	padding-right:5px;
+  line-height:2;
+  
+}
+
+.order-wizard-msr-addresses-module-address-container{
+	background: $sc-color-theme-background;
+	padding: $sc-padding-lv8;
+	clear:both;
+	display:block;
+	overflow:hidden;
+}
+
+.order-wizard-address-module-checkbox{
+	margin-bottom: 10px;
+	display:block;
+  font-family: $sc-font-family;
+  display: inline-flex;
+
+}
+
+.order-wizard-address-module-single {
+	.address-details {
+		@extend .col-sm-12;
+		@extend .col-md-6;
+	}
+}
+
+.order-wizard-address-cell12 {
+	.address-details {
+		margin-bottom: $sc-margin-lv4;
+	}
+}
+
+.order-wizard-address-module-list-placeholder{
+}
+
+.order-wizard-address-module-form-actions{}
+
+.plus{
+  &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_big.png");
+        position: relative;
+        //top: 4px;
+        //left: -5px;
+    }
+}
+
+.minus{
+  &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/minus.png");
+        position: relative;
+        //top: 4px;
+        //left: -5px;
+    }
+}
+
+.order-wizard-address-module-checkbox{
+    input[type=checkbox] {
+             position: relative;
+               cursor: pointer;
+        }
+        input[type=checkbox]:before {
+             content: "";
+             display: block;
+             position: absolute;
+             width: 13px;
+             height: 13px;
+             top: 0;
+             left: 0;
+             border: 2px solid #435363;
+             border-radius: 3px;
+             background-color: white;
+        }
+        input[type=checkbox]:checked:after {
+             content: "";
+             display: block;
+             width: 3px;
+             height: 6px;
+             border: solid black;
+             border-width: 0 2px 2px 0;
+             -webkit-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             position: absolute;
+             top: 3px;
+             left: 6px;
+        }
+    
+}
+
+.order-wizard-address-module-checkbox-label{
+    font-size: 12px;
+    }
