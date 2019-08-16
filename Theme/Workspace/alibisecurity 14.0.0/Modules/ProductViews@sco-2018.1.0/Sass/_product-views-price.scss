@@ -1,0 +1,49 @@
+.product-views-price-lead{
+	@extend .small-price;
+	color:#435363;
+	font-size:$ob-font-size-sh5;
+}
+
+.product-views-price-old{
+	@extend .old-price;
+	color:#ef7622;
+	font-weight:bolder;
+	font-size: $ob-font-size-sh5;
+	 @media (min-width: $screen-lg-min) {
+	 font-size:$ob-font-size-sh4;
+	 }
+
+}
+
+.product-views-price-old1{
+	@extend .small-price;
+	color:#435363;
+	font-weight:bolder;
+	font-size: $ob-font-size-sh4;
+	  @media (min-width: $screen-lg-min) {
+        font-size:14px;
+        }
+	}
+
+.product-views-price-login-to-see-prices-highlighted {
+	margin-top: $sc-margin-lv2;
+    margin-bottom: $sc-margin-lv2;
+}
+.product-views-price-login-to-see-prices {
+    @extend .message;
+}
+
+.product-views-price-message {
+	font-weight: 700;
+}
+
+.product-views-price{}
+.product-views-price-range{}
+.product-views-price-exact{}
+
+.savings-saleprice{
+	display: inline-block;
+    color: green;
+    font-weight: bold;
+    font-size: 11px;
+}

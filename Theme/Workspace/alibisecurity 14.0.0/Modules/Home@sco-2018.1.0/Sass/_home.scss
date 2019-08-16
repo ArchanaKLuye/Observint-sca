@@ -1,0 +1,1584 @@
+    .home {
+        @extend .container;
+    }
+
+    .button-primary-ob {
+        background: $ob-color-secondary;
+        color: $sc-button-primary-text-color;
+        font-weight: $sc-font-weight-light;
+        border-radius: 50px;
+        text-transform: $sc-button-primary-text-transform;
+        display: inline-block;
+        background-image: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/arrow.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-x: 160px;
+
+        @media (min-width: 320px) {
+            background-position-x: 76px;
+            background-size: 8px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            background-size: 10px;
+            background-position-x: 110px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            background-position-x: 130px;
+            background-size: 18px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            background-position-x: 130px;
+            background-size: 18px;
+        }
+    }
+
+    .button-large-ob {
+        width: $sc-button-large-mobile-width;
+        padding: $sc-button-large-padding-v $sc-button-large-padding-h;
+        font-size: $sc-button-large-font-size;
+        line-height: $sc-button-large-line-height;
+        text-align: left;
+
+        @media (min-width: 320px) {
+
+            padding: 5px 6px;
+            font-size: 12px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding: 8px 15px;
+            font-size: 15px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding: 10px 22px;
+            font-size: 15px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding: 10px 22px;
+            font-size: 15px;
+        }
+    }
+
+    .bg {
+
+        background-image: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/homebg_01-min.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-size: cover;
+        background-color: #fff;
+
+        @media (min-width: 320px) {
+            height: 230px;
+            margin-top: -5%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            height: 360px;
+            margin-top: -3%;
+        }
+
+        @media (min-width: $screen-md-min) {
+            height: 500px;
+            margin-top: -2%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            height: 500px;
+            margin-top: -2%;
+        }
+    }
+
+    .bg-background-image {
+
+        display: block;
+    }
+
+    .bg-bg-img {
+        width: 30%;
+
+        @media (min-width: 320px) {
+            width: 50%;
+            margin: 20% 0%;
+            /*             margin-left: 1%;
+margin-right: 1%; */
+
+
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 35%;
+            margin-top: 8%;
+            margin-bottom: 8%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 30%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 6%;
+            margin-bottom: 6%;
+        }
+    }
+
+
+    .bg-dealer {
+
+        background-image: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/homebg_02-min.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-size: cover;
+        background-color: #fff;
+
+        @media (min-width: 320px) {
+            height: 260px;
+            margin-top: -5%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            height: 360px;
+            margin-top: -3%;
+        }
+
+        @media (min-width: $screen-md-min) {
+            height: 530px;
+            margin-top: -2%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            height: 550px;
+            margin-top: -2%;
+        }
+    }
+
+    .home-logged-banner-section {
+        display: inline-block;
+        margin-left: 0px;
+
+        @media (min-width: 320px) {
+            margin-top: 12%;
+
+        }
+
+        @media (min-width: $screen-sm-min) {
+            margin-top: 8%;
+
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 6%;
+
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 6%;
+            margin-left: 12%;
+        }
+
+    }
+
+    .home-logged-banner-section-head {
+        font-weight: bolder;
+
+        @media (min-width: 320px) {
+
+            font-size: 12px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 20px;
+        }
+    }
+
+    .home-logged-banner-section-price {
+        float: right;
+        margin: 2px;
+        padding-top: 8px;
+        color: #ef7622;
+
+        @media (min-width: 320px) {
+            font-size: 21px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 42px;
+        }
+    }
+
+    .bg-bg-img-loged {
+        width: 30%;
+        float: right;
+
+        @media (min-width: 320px) {
+            width: 33%;
+            margin: 0px;
+            margin-left: 1%;
+            margin-right: 1%;
+
+        }
+
+        @media (min-width: 360px) {
+            width: 33%;
+            margin: 0px;
+            margin-left: 1%;
+            margin-right: 1%;
+
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 25%;
+            margin: 0px
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 25%;
+            margin: 0px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 25%;
+            margin: 0px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+
+
+    .bg2 {
+
+        background-image: url("http://alibi-security-sandbox.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/support_bg-min.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-size: cover;
+        background-color: #fff;
+
+        @media (min-width: 320px) {
+            height: 600px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            height: 415px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            height: 500px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            height: 520px;
+        }
+    }
+
+    .welcome-msg {
+        float: left; // margin-left: 68px;
+        margin-top: 50px;
+
+        @media (min-width: 320px) {
+            //margin-left: 25px;
+            margin-top: 37px;
+            width: 50%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            //margin-left: 36px;
+            margin-top: 60px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            // margin-left: 100px;
+            margin-top: 53px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            //margin-left: 100px;
+            margin-top: 53px;
+        }
+    }
+
+    .head1 {
+        // font-size: 50px;
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h1;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h1;
+        }
+    }
+
+    .head2 {
+        // font-size: 38px;
+        color: $ob-color-accent;
+        text-transform: uppercase;
+        font-family: $ob-font-family;
+        font-weight: bold;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h3;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h3;
+        }
+    }
+
+    .name {
+        // font-size: 38px;
+        color: $ob-color-accent;
+        text-transform: uppercase;
+        font-family: $ob-font-family;
+        font-weight: bold;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 25px;
+            font-size: 48px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 35px;
+            font-size: 48px;
+        }
+    }
+
+    .login-head2 {
+        // font-size: 38px;
+        color: $ob-color-primary;
+        text-transform: uppercase;
+        font-family: $ob-font-family;
+        font-weight: bold;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 22px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h3;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-h3;
+        }
+    }
+
+    .sub2 {
+        // margin-top: 5px;    // font-size: 18px;
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: 400;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 9px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-sh2;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: $ob-font-size-sh3;
+            font-weight: 600;
+        }
+    }
+
+    .sub3 {
+        text-transform: uppercase;
+        color: $ob-color-accent;
+        margin-top: 18px;
+        font-size: 18px;
+        font-family: $ob-font-family;
+        font-weight: 200;
+
+        @media (min-width: 320px) {
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 18px;
+            font-size: 18px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 18px;
+            font-size: 18px;
+        }
+    }
+
+    .sub3-login {
+        text-transform: uppercase;
+        color: $ob-color-accent;
+        margin-top: 18px;
+        font-size: 18px;
+        font-family: $ob-font-family;
+        font-weight: 600;
+
+        @media (min-width: 320px) {
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-top: 12px;
+            font-size: 16px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-top: 18px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-top: 18px;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .details {
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: 400;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .deal_details {
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: 400;
+        font-size: 14px;
+        word-break: break-word;
+
+        @media (min-width: $screen-sm-min) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .learmore {
+        font-size: 12px;
+        margin-top: 12px;
+        font-weight: 400;
+        font-family: $ob-font-family;
+        display: inline-block;
+        color: $ob-color-secondary;
+
+        @media (min-width: 320px) {
+            font-size: 12px;
+            margin-top: 12px;
+            margin-bottom: 30px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-size: 12px;
+            margin-top: 12px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .features2 {
+        background-color: #ecedef; //height: 690px;
+        margin-top: 20px;
+
+        @media (min-width: 320px) {
+            height: 280px;
+        }
+
+        @media (min-width: 540px) {
+            height: 425px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            height: 475px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            height: 590px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            height: 690px;
+        }
+    }
+
+    .feature-img {
+        @extend .col-xs-6; //width: 585px;
+        margin-top: 35px;
+        &:nth-child(odd) {
+            padding-left: 0;
+        }
+        &:nth-child(even) {
+            padding-right: 0;
+        }
+    }
+
+    .home-button {
+        @extend .button-primary-ob;
+        @extend .button-large-ob;
+
+        @media (min-width: 320px) {
+            width: 75%;
+            position: relative;
+            margin-top: 5px;
+        }
+
+        @media (min-width: 360px) {
+            width: 64%;
+            position: relative;
+            margin-top: 5px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            width: 40%;
+            position: relative;
+            margin-top: 16px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 36%;
+            position: relative;
+            margin-top: 35px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 30%;
+            position: relative;
+            margin-top: 35px;
+        }
+    }
+
+    .order-button {
+        @extend .button-primary-ob;
+        @extend .button-large-ob;
+
+
+
+        @media (min-width: 320px) {
+            width: 60%;
+            position: relative;
+            margin-top: 5px;
+            padding: 5px 6px;
+        }
+
+        @media (min-width: 540px) {
+            width: 35%;
+            position: relative;
+            margin-top: 5px;
+            padding: 5px 6px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            width: 40%;
+            position: relative;
+            margin-top: 16px;
+            padding: 15px 20px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 37%;
+            position: relative;
+            margin-top: 35px;
+            padding: 15px 20px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 32%;
+            position: relative;
+            margin-top: 35px;
+            padding: 15px 20px;
+        }
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .columns_BS .sup_img {
+        margin-top: 0
+    }
+    
+    .sup_img {
+        float: left;
+        width:70px;
+        height:70px;
+        @media (max-width: 766px) {
+            float: none;
+        }
+    }
+
+    .home-button:hover {
+        color: #fff;
+    }
+
+    /* .home-button:hover {
+        @extend .button-primary-ob;
+        @extend .button-large-ob;
+        padding: 15px 20px;;
+    
+        @media (min-width: 320px) {
+            width: 56%;
+            position: relative;
+            margin-top: 5px;
+        }
+    
+        @media (min-width: $screen-sm-min) {
+    
+            width: 44%;
+            position: relative;
+            margin-top: 16px;
+            padding: 8px 15px;
+        }
+    
+        @media (min-width: $screen-md-min) {
+            width: 32%;
+            position: relative;
+            margin-top: 35px;
+            padding: 10px 22px;
+    
+        }
+    
+        @media (min-width: $screen-lg-min) {
+            width: 32%;
+            position: relative;
+            margin-top: 35px;
+        }
+    } */
+
+    .features {
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    .home-banner-top-message {
+
+        @extend .message-info;
+        @extend .message-large;
+    }
+
+    .home-slider-container {
+        margin-top: $sc-margin-lv4;
+        margin-bottom: $sc-margin-lv4;
+        @extend .row;
+    }
+
+    .home-image-slider {
+        @extend .col-sm-12;
+    }
+
+    // start bx-slider specifics
+    $sc-image-slider-height: 400px;
+    $sc-image-slider-max-width: 1140px;
+    $sc-image-slider-max-width-mobile: 767px;
+
+    .home-image-slider .bx-wrapper {
+        margin-bottom: $sc-margin-lv8;
+    }
+
+    .home-image-slider .bx-pager-item {
+        vertical-align: middle;
+    }
+
+    .home-image-slider .bx-controls,
+    .home-image-slider .bx-controls .bx-pager {
+        @media (min-width: $screen-sm-min) {
+            margin-top: $sc-margin-lv2;
+        }
+    }
+
+    .home-image-slider .bx-wrapper,
+    .home-image-slider .bx-viewport {
+        height: $sc-image-slider-height !important;
+    }
+
+    .home-image-slider .bx-viewport ul li {
+        overflow: hidden;
+    }
+
+    .home-image-slider .bx-wrapper .home-slide-image-container {
+        margin: auto 0;
+        margin-top: 100px;
+        float: none;
+
+        @media (min-width: $screen-sm-min) {
+            max-width: $sc-image-slider-max-width !important;
+            float: right;
+            margin: 0 $sc-margin-lv1 * 12 0 0;
+            width: 350px;
+            padding: $sc-margin-lv6;
+        }
+    }
+
+    .home-gallery-prev-icon,
+    .home-gallery-next-icon {
+        position: absolute;
+        top: 40%;
+        width: $sc-target-size-mobile;
+        height: $sc-target-size-mobile;
+        font-size: 50px;
+        color: $sc-color-theme-500;
+    }
+
+    .home-gallery-prev-icon {
+        left: 30px;
+        @extend .icon-angle-left;
+    }
+
+    .home-gallery-next-icon {
+        right: 30px;
+        text-align: right;
+        @extend .icon-angle-right;
+    }
+
+    .home-image-slider .bx-pager {
+
+        a {
+            color: $sc-color-theme-500 !important;
+            background-color: $sc-color-theme-500 !important;
+            width: 10px !important;
+            height: 10px !important;
+            border-radius: 100% !important;
+            font-size: 0;
+            text-indent: -9999px;
+        }
+
+        a.active {
+            background-color: $sc-color-secondary;
+        }
+    }
+
+    @media (min-width: $screen-md-min) {
+
+        .home-image-slider .bx-wrapper {
+            margin-bottom: 0;
+        }
+    }
+
+    .home-image-slider .bx-pager {
+        @media (min-width: $screen-md-min) {
+            width: 940px;
+            position: absolute !important;
+            bottom: $sc-margin-lv4;
+            text-align: center;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 1140px;
+        }
+    }
+
+    // end bx-slider specifics
+    .home-banner-main {
+        margin-bottom: $sc-margin-lv4;
+        @extend .row;
+    }
+
+    .home-banner-main-cell-nth0 {
+        @extend .col-xs-12;
+        @extend .col-sm-4;
+        text-align: center;
+        margin-bottom: $sc-margin-lv4;
+
+        img {
+            margin: auto;
+            float: left;
+
+            @media (min-width: $screen-sm-min) {
+                max-width: 100%;
+                width: 100%;
+                float: none;
+            }
+        }
+    }
+
+    .home-banner-main-cell-nth1,
+    .home-banner-main-cell-nth2 {
+        @extend .col-xs-6;
+        @extend .col-sm-4;
+
+        .home-banner-main-cell-text {
+            display: none;
+        }
+
+        img {
+            margin: 0 auto;
+            float: none;
+        }
+    }
+
+    .home-banner-main-cell-bg {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .home-banner-main-cell-text {
+        display: inline-block;
+        color: $sc-color-theme-700;
+        font-size: $sc-font-size-xl;
+        text-transform: uppercase;
+        font-weight: $sc-font-weight-light;
+        line-height: 82px;
+        float: left;
+
+        @media (min-width: $screen-sm-min) {
+            display: none;
+        }
+    }
+
+    .home-merchandising-zone {
+
+        .merchandising-zone {
+            border: 0;
+        }
+
+        .merchandising-zone-title {
+            display: none;
+        }
+
+        .item-cell-main-image {
+            margin: 0 auto;
+            width: $img-medium;
+        }
+    }
+
+    .home-slide-main-container {
+        background: $sc-color-theme-background;
+        overflow: hidden;
+        height: 400px;
+        text-align: center;
+
+        @media (min-width: $screen-sm-min) {
+            height: 100%;
+        }
+    }
+
+    .columns_2 {
+        @extend .col-xs-6;
+    }
+
+    .columns_3 {
+        @extend .col-sm-4;
+    }
+
+
+    .col_BS {
+        @media (min-width: 320px) {
+            @extend .columns_2;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            @extend .columns_2;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 25%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 25%;
+        }
+    }
+
+    .columns_BS {
+
+        @media (max-width: 770px) {
+            @extend .columns_2;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            @extend .columns_3;
+        }
+
+        @media (min-width: $screen-md-min) {
+            @extend .columns_3;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            @extend .columns_3;
+        }
+    }
+
+
+    .ob-animate-right {
+        position: relative;
+        animation: animateright 0.4s
+    }
+
+    @keyframes animateright {
+        from {
+            right: -300px;
+            opacity: 0
+        }
+
+        to {
+            right: 0;
+            opacity: 1
+        }
+    }
+
+    .partner {
+
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            font-size: 18px;
+            margin-top: 30px
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-size: 24px;
+            margin-top: 30px
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 30px;
+            margin-top: 50px
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 30px;
+            margin-top: 50px
+        }
+    }
+
+
+    .support {
+
+        color: #fff;
+        font-family: $ob-font-family;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            font-size: 16px;
+            padding-top: 20px;
+            padding-bottom: 9px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-size: 28px;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 30px;
+            padding-top: 35px;
+            padding-bottom: 25px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 30px;
+            padding-top: 35px;
+            padding-bottom: 25px;
+        }
+    }
+
+    .sup_details {
+        color: #a5bbc3;
+        text-align: center;
+        font-family: $ob-font-family;
+        font-weight: 400;
+        font-size: 14px;
+
+        @media (min-width: 320px) {
+            font-size: 8px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-weight: 400;
+            font-size: 14px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+
+    .row_BS {
+        @extend .row;
+
+        @media (min-width: 320px) {
+            padding-top: 35px;
+            padding-left: 44px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            padding-top: 70px;
+            padding-left: 0px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-top: 70px;
+            padding-left: 0px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding-top: 70px;
+            padding-left: 0px;
+        }
+    }
+
+    .detailsbox {
+        border: solid 2px #ecedef;
+        margin-top: 5%;
+
+        @media (max-width: $screen-sm-min) {
+
+            min-height: 375px;
+        }
+    }
+
+    .detailimg {
+        margin-top: 30px;
+    }
+
+    .sup_message {
+        margin-bottom: 70px;
+
+        @media (min-width: 320px) {
+            padding-left: 0px;
+            margin-bottom: 47px;
+            float: none;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            padding-left: 12px;
+            margin-bottom: 65px;
+            float: left;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-left: 35px;
+            margin-bottom: 70px;
+            float: left;
+            width: 75%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding-left: 30px;
+            margin-bottom: 70px;
+            float: left;
+
+        }
+    }
+
+    .sup_1 {
+        font-family: $ob-font-family;
+        color: #fff;
+        font-size: 15px;
+
+        @media (min-width: 320px) {
+            padding-right: 0px;
+            margin-bottom: 5px;
+            font-size: 8px;
+        }
+
+        @media (min-width: 360px) {
+            padding-right: 0px;
+            margin-bottom: 5px;
+            font-size: 9px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-size: 11px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 13px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 15px;
+        }
+    }
+
+    .details1 {
+        color: #fff;
+        font-family: $ob-font-family;
+        font-weight: 400;
+        margin-top: 8px;
+        font-size: 14px;
+
+        @media (min-width: 320px) {
+            font-weight: 100;
+            font-size: 8px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            font-weight: 100;
+            font-size: 10px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-weight: 400;
+            margin-top: 8px;
+            font-size: 14px;
+            padding-left: 0px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-weight: 400;
+            margin-top: 15px;
+            font-size: 14px;
+            padding-left: 0px;
+        }
+    }
+
+    .testimonial {
+        @media (min-width: 320px) {
+            height: 215px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            height: 265px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            height: 345px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            height: 315px;
+        }
+    }
+
+    .T_head {
+        color: #435363;
+        font-family: $ob-font-family;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            font-size: 16px;
+            padding-top: 20px;
+            padding-bottom: 9px;
+            padding-right: 0px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            font-size: 28px;
+            padding-top: 25px;
+            padding-bottom: 15px;
+            padding-right: 0px; //padding-right: 260px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 30px; // margin-top: 50px
+            padding-top: 35px;
+            padding-bottom: 25px;
+            padding-right: 0px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 30px; // margin-top: 50px
+            padding-top: 30px;
+            padding-bottom: 25px;
+            padding-right: 0px;
+        }
+    }
+
+    .T_sub {
+        // margin-top: 5px;    // font-size: 18px;
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: 500;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+
+            font-size: 7px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: 16px; //letter-spacing: 1px;
+        }
+    }
+
+    .T_who {
+        // margin-top: 5px;    // font-size: 18px;
+        color: $ob-color-primary;
+        font-family: $ob-font-family;
+        font-weight: 500;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            margin-bottom: 5px;
+            font-size: 9px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 5px;
+            font-size: 14px; //letter-spacing: 1px;
+        }
+    }
+
+    .T_name {
+        color: $ob-color-accent;
+        font-family: $ob-font-family;
+        font-weight: 600;
+        text-align: center;
+
+        @media (min-width: 320px) {
+            margin-bottom: 6px;
+            font-size: 9px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-bottom: 10px;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+    }
+
+    .T_dots {
+        display: inline-flex;
+        position: relative;
+
+        @media (min-width: 320px) {
+            padding-left: 39%;
+            margin-top: 30px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            padding-left: 44%;
+            margin-top: 30px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-left: 47%;
+            margin-top: 30px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding-left: 47%;
+            margin-top: 15px;
+        }
+    }
+
+    .close_com {
+
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/com_01.svg");
+    }
+
+    .open_com {
+
+        width: auto;
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/com_02.svg");
+    }
+
+    .T_active {
+        padding-left: 10px;
+        cursor: pointer;
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/circle_semi.svg");
+    }
+
+
+    .T_deactive:before {
+        padding-left: 10px;
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/circle.svg");
+    }
+
+    .T_active:before {
+        padding-left: 10px;
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/circle_semi.svg");
+    }
+
+
+    .T_deactive {
+        padding-left: 10px;
+        cursor: pointer;
+        content: url("http://alibisecurity.production.netsuitestaging.com/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/circle.svg");
+    }
+
+    .T_details {
+        display: none;
+    }
+
+    .T_detail {
+        display: block;
+    }
+
+    .row-brands::after {
+        content: "";
+        clear: both;
+        display: table;
+        margin-bottom: 10px;
+    }
+
+    .column-brands {
+        float: left;
+        width: 14.28%;
+        padding: 25px;
+    }
+
+    .column-brands {
+        float: left;
+
+        @media (min-width: 320px) {
+            width: 50%;
+            padding: 35px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 25%;
+            padding: 35px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 14.28%;
+            padding: 25px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 14.28%;
+            padding: 25px;
+        }
+    }
+
+    .home-slide-caption {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        padding: $sc-margin-lv2;
+        height: 80%;
+
+        @media (min-width: $screen-sm-min) {
+            width: 50%;
+            padding: $sc-padding-lv8 $sc-padding-lv1 * 12;
+            padding-right: 0px;
+            text-align: left;
+            height: auto;
+            position: relative;
+        }
+
+        h2.home-slide-caption-title {
+            margin-bottom: $sc-margin-lv2;
+            font-size: $sc-font-size-m * 2.66;
+            line-height: $sc-font-size-m * 2.66;
+            color: $sc-color-secondary;
+
+            @media (min-width: $screen-sm-min) {
+                margin-bottom: $sc-margin-lv4;
+            }
+        }
+
+        p {
+            display: none;
+
+            @media (min-width: $screen-xs-min) {
+                display: block;
+                margin-bottom: $sc-margin-lv4;
+                color: $sc-color-theme-700;
+                font-size: $sc-font-size-xl;
+                text-transform: uppercase;
+                font-weight: $sc-font-weight-light;
+            }
+
+            @media (min-width: $screen-sm-min) {
+                font-size: $sc-font-size-xl;
+            }
+        }
+
+        .home-slide-caption-button-container {
+            padding-left: $sc-padding-lv4;
+            padding-right: $sc-padding-lv4;
+            position: absolute;
+            margin-left: -$sc-padding-lv1 *2;
+            bottom: -60px;
+            width: 100%;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 0;
+                margin-left: 0;
+                margin-right: 0;
+                position: relative;
+                bottom: 0px;
+            }
+        }
+
+        .home-slide-caption-button {
+            @extend .button-primary;
+            @extend .button-large;
+
+            @media (min-width: $screen-xs-min) {
+                width: auto;
+                position: relative;
+            }
+        }
+    }
+
+    .Allproducts {
+        background-color: #f9f9f9;
+    }
+
+    .home-merchandizing-zone {}
+
+    .home-image-slider-list {}
+
+    .icon-back {
+        display: inline-block;
+        width: 4%;
+
+        margin-bottom: -6px;
+        margin-left: 6px;
+        margin-right: 6px;
+
+        @media (min-width: 320px) {
+            margin-bottom: -2px;
+        }
+
+        @media (min-width: 360px) {
+            margin-bottom: -3px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: -2px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: -3px;
+        }
+
+    }

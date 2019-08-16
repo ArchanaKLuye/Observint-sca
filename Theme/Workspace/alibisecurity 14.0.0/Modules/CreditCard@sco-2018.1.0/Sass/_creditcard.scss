@@ -1,0 +1,281 @@
+$credit-card-height: 230px;
+$credit-card-height-offset: 20px;
+
+.creditcard-myaccounts {
+    @extend .col-lg-4;
+    @extend .col-sm-6;
+    margin-bottom: $sc-margin-lv4;
+    width: 100%;
+}
+
+.creditcard-checkout{
+    //@extend .col-lg-4;
+    //@extend .col-sm-6;
+    margin-bottom: $sc-margin-lv4;
+    //width: 100%;
+}
+
+.creditcard-require-field {
+    margin-bottom: $sc-margin-lv4;
+    margin-top: $sc-margin-lv2;
+    display: inline-block;
+}
+
+.creditcard-required {
+    @extend .input-required
+}
+
+.overview-payment .creditcard,
+.order-wizard-paymentmethod-creditcard-module .creditcard {
+    width: 100%;
+    padding: 0;
+}
+
+.creditcard-content {
+    width: 100%;
+}
+
+.creditcard-list .creditcard-content,
+.creditcard-module-list-placeholder .creditcard-content {
+    @extend .info-card;
+
+    @media(min-width: $screen-sm-min) {
+        //min-height: $credit-card-height + $credit-card-height-offset;
+    }
+}
+
+.creditcard-section {
+    @extend .col-xs-12;
+    margin-bottom:$sc-margin-lv2;
+    padding: 0;
+}
+
+.creditcard-number {
+    line-height:40px;
+}
+
+.creditcard-number-payments{
+    line-height:20px;
+    background-color: #e5e5e5;
+}
+
+.creditcard-security-code-section {
+    @extend .col-xs-12;
+    padding: 0;
+}
+
+.creditcard-header-icon {
+    float: left;
+    margin-right: $sc-margin-lv1;
+    width:auto;
+    height:$sc-target-size-mobile;
+}
+
+.creditcard-header-icon-payments {
+    float: left;
+    margin-right: 20px;
+    width:auto;
+    height:$sc-target-size-mobile;
+    @media (min-width: 320px) {
+           width:30px;
+        }
+
+        @media (min-width: 414px) {
+           width:auto;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             
+            width:auto;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width:auto;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width:auto;
+        }
+}
+
+.creditcard-default {
+    @extend .address-details-default-billing;
+}
+
+.creditcard-default-icon {
+    @extend .address-details-default-shipping-icon;
+}
+
+.creditcard-actions {
+    clear: both;
+    //margin-top: $sc-margin-lv3;
+    text-align: right;
+        @media (min-width: 320px) {
+           padding-left: 45px;
+        }
+
+        @media (min-width: 414px) {
+           padding-left: 85px;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             padding-left: 45px;
+            
+        }
+
+        @media (min-width: $screen-md-min) {
+            padding-left: 45px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            padding-left: 45px;
+        }
+  
+}
+
+.creditcard-edit-form-button-edit {
+    @extend .button-tertiary;
+    @extend .button-small;
+    margin-left: 0;
+    text-align: center;
+    margin-right:$sc-margin-lv2;
+    border: none;
+    background: #e5e5e5;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    &:hover {
+       background: #e5e5e5;
+       color: #435363
+  }
+
+    @media (min-width: $screen-xs-min) and (max-width: $screen-lg-min)  {
+        margin-bottom:$sc-margin-lv2;
+    }
+}
+
+.creditcard-use-this-card-button {
+    @extend .button-primary;
+    @extend .button-medium;
+    @extend .button-generic;
+    margin-top:$sc-margin-lv2;
+    margin-bottom:$sc-margin-lv2;
+    background-color: #ef7622;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px;
+
+    @media (min-width: $screen-sm-min) {
+        margin-bottom:0px;
+    }
+}
+
+.creditcard-edit-form {
+    clear:both;
+}
+
+.creditcard-edit-form-button-remove {
+    @extend .button-tertiary;
+    @extend .button-small;
+    border: none;
+    background: #e5e5e5;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00a7ce;
+    &:hover {
+       background: #e5e5e5;
+       color: #435363
+  }
+}
+
+.creditcard-expdate {
+    margin-bottom:$sc-margin-lv2;
+    width: 50%;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.creditcard-expdate-checkout {
+    margin-bottom:$sc-margin-lv2;
+    width: 25%;
+    text-align: right;
+    margin-right: 15px;
+}
+
+// checkout specific (hide back to myaccount btn)
+.checkout-layout ~ .modal-container .creditcard-edit-back {
+    display: none;
+}
+
+.creditcard-name{
+    color: #00a7ce;
+}
+.creditcard-divider{
+    background-color: darkgrey;
+    margin: 0px;
+}
+
+.creditcard-edit-form-checkbox-disabled{
+    //display: flex;
+    color: #435363;
+    input[type=checkbox] {
+             position: relative;
+               cursor: pointer;
+        }
+        input[type=checkbox]:before {
+             content: "";
+             display: block;
+             position: absolute;
+             width: 13px;
+             height: 13px;
+             //top: -1px;
+             left: 0;
+             border: 2px solid #435363;
+             border-radius: 4px;
+             background-color: #e5e5e5;
+             //bottom: -8px;
+        }
+        input[type=checkbox]:checked:after {
+             content: "";
+             display: block;
+             width: 3px;
+             height: 6px;
+             border: solid #435363;
+             border-width: 0 2px 2px 0;
+             -webkit-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             position: absolute;
+             top: 4px;
+             left: 6px;
+        }
+    
+}
+.actions{
+    padding: 0px;
+    display: inline-flex;
+    background-color: #e5e5e5;
+    padding-top: 10px;
+}
+
+.check{
+    //padding: 0px; 
+}
+.card-details{
+    display: flex;
+}
+.creditcard-header{
+    width: 50%;
+}
+.cc-exp-date{
+    padding-right: 15px;
+    color: #00a7ce;
+}
+.credit-card-details-main{
+    padding: 20px 15px 15px 15px;
+}
+.creditcard-header-checkout{
+    width: 65%;
+}

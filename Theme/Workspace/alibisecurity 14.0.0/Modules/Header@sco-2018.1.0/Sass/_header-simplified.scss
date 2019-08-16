@@ -1,0 +1,54 @@
+.header-simplified-header{
+	height: $sc-main-nav-height;
+	background-color: $ob-color-primary;
+	box-shadow: 3px 0px 6px $sc-header-shadow-color;
+}
+
+.header-simplified-header-logo{
+	text-align: center;
+     .header-logo{
+    max-width:100%;
+    /*@media (min-width: $screen-lg-min) {
+       max-width:100%;
+        }*/
+}
+	.header-logo-image{
+		width: auto;
+		 @media (max-width: 767px) {
+            padding: 16px 0px 16px 0px;
+    width:56%;
+    float: center;
+           
+        }
+
+        @media (min-width: $screen-sm-min) {
+        padding: 9px 0px 9px 0px;
+    width: 26%;
+    float: left;
+        }
+
+        @media (min-width: $screen-md-min) {
+             padding: 6px;
+    width: 34%;
+    float: left;  
+        }
+        @media (min-width: 1366px) {
+        padding: 6px;
+        width: 36%;
+        float: left;
+        margin-left: -1.2%;
+        }
+        
+        @media (min-width: 1536px) {
+        width: 43%;
+        float: left;
+        margin-left: -1.2%;
+        }
+        @media (min-width: 1600px) {
+        width: 45%;
+        float: left;
+        
+        }
+	}
+}
+

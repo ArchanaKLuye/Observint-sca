@@ -1,0 +1,19 @@
+.facets-item-list-show-selector {
+	@extend .list-header-filter-input;
+	display: inline-block;
+	min-width:60px;
+}
+.pagination{
+ background-color: white;
+}
+.facets-item-list-show-selector{
+	@media (min-width: $screen-lg-min) {
+	background-color: $theme-tertiary-color;
+	border-color: $theme-tertiary-color;
+	border-radius:10px;
+}
+}
+.paginationtext{
+	display: inline-block;
+	padding-left:5px;
+}

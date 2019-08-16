@@ -1,0 +1,8 @@
+.itemssearcher-input {
+	@extend .nav-search-input;
+	width: 80%;
+	 @media (max-width: $screen-md-min) {
+	 max-height:8px;
+    }
+}
+

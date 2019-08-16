@@ -1,0 +1,121 @@
+.login-register-login-description {
+    margin-top: $sc-margin-lv4;
+    margin-bottom: $sc-margin-lv4;
+}
+
+.login-register-login-form-controls-group {
+    margin-top: $sc-margin-lv4;
+}
+
+.login-register-login-form-label {
+    color: $ob-color-primary;
+}
+.login-register-login-forgot
+.login-register-login-required {
+    color: $ob-color-primary;
+
+}
+
+.login-register-login-form-required {
+    @extend .input-required;
+}
+
+.login-register-login-form-input {
+    @extend .input-large;
+    background-color: #e5e5e5 !important;
+    border-color: #e5e5e5;
+}
+
+.login-register-login-submit {
+    @extend .button-large;
+    @extend .button-primary;
+     @media (min-width: $screen-sm-min) {
+        padding: 10px 35px;
+    }
+    @media (min-width: $screen-md-min) {
+        padding: 13px 35px;
+    }
+    @media (min-width: $screen-lg-min) {
+        padding: 15px 35px;
+    }
+}
+
+.login-register-login-forgot {
+
+    display: inline-block;
+    margin-top: $sc-margin-lv4;
+    color: $ob-color-secondary;
+    text-decoration: underline;
+    @media (min-width: $screen-sm-min) {
+        font-size: 10px;
+         margin-top: 0;
+         margin-left: $sc-margin-lv2;
+    }
+    @media (min-width: $screen-sm-min) {
+        font-size: 4px;
+    }
+    @media (min-width: 900px) and (max-width: 992px){
+    font-size: 8px;
+    }
+    @media (min-width: $screen-md-min) {
+        font-size: 8px;
+        }
+        
+     @media (min-width: $screen-lg-min) {
+        font-size: 13px;
+    }
+}
+
+.login-register-login-form-messages {
+    margin-top: $sc-margin-lv4;
+
+    .global-views-message-error {
+        @extend .message-error;
+        margin-bottom: 0;
+    }
+
+    .global-views-message-button {
+        display: none;
+    }
+
+
+}
+
+.login-register-login-form-messages-timeout {
+    @extend .global-views-message;
+    @extend .global-views-message-error;
+}
+
+.login-register-login-form-controls-group {
+    @extend .login-register-register-form-controls-group;
+}
+
+
+.login-register-login-form-controls {
+    @extend .login-register-register-form-controls !optional;
+}
+
+.login-register-login-register-now {}
+
+.login-register-login-title {
+    color: $ob-color-secondary;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.login-register-login-required {}
+
+.login-register-login-form-fieldset {}
+
+.login-register-login-description {
+    color: $ob-color-primary;
+    font-size: 13px;
+}
+
+.login-register-login-form-label {
+    color: $ob-color-primary;
+}
+.login-register-register-form-remindme-span{
+    margin-left: 24px;
+    margin-top: -36px;
+}

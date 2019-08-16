@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Transaction.Line.Views@sco-2018.1.0/JavaScript/Transaction.Line.Views.Price.View.js": "JavaScript/Transaction.Line.Views.Price.View.js"
+    }
+}

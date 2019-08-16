@@ -1,0 +1,34 @@
+.checkout-layout {
+	@extend %sc-layout;
+}
+
+.checkout-layout-header {
+	margin-bottom: 0px;
+
+	@media (min-width: $screen-sm-min){
+		margin-bottom: 0px;
+	}
+}
+
+.checkout-layout-content, .checkout-layout-notifications{
+	@extend .container;
+	@media (min-width: 1336px){
+	 width:1200px;
+	}
+}
+
+.checkout-layout-footer {
+	@extend %sc-footer !optional;
+}
+
+.checkout-layout-breadcrumb{}
+
+.checkout-layout-no-javascript-msg {
+	@extend .message-warning;
+	width: 100%;
+}
+
+
+#main-container{
+background-color: $legend-border-color;
+}

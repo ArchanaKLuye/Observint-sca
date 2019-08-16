@@ -1,0 +1,396 @@
+
+//-----------------JJ-----------------
+
+
+//////////////////////////////AC SuiteCommerce////////////////////////////////////////////
+
+
+footer {
+    background: $sc-footer-background-color;
+    border-top: 1px solid $sc-footer-border-color;
+    color: $sc-footer-text-color;
+
+    p {
+        color: $sc-footer-text-color;
+    }
+
+    a {
+        color: $sc-footer-link-color;
+
+        &:hover {
+            color: $sc-footer-link-color-hover;
+        }
+
+        &:active {
+            color: $sc-footer-link-color-active;
+        }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $sc-footer-headings-color;
+    }
+
+    input {
+        background: $sc-footer-fields-background-color;
+        border: 1px solid $sc-footer-fields-border-color;
+        color: $sc-footer-fields-text-color;
+    }
+
+    button, button.button-secondary, button.button-tertiary {
+        @extend .button-medium;
+
+        background: $sc-footer-buttons-background-color;
+        color: $sc-footer-buttons-text-color;
+        border: 1px solid $sc-footer-buttons-border-color;
+    }
+}
+
+.footer-content{
+    //padding:0px;
+    @extend .container;
+    @extend .row;
+    margin: auto;
+}
+.footer-content-nav {
+    padding-top:5%;
+    @extend .col-md-8;
+    @extend .col-xs-12;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.footer-content-nav-list {
+    list-style: none;
+    //margin-top:23%;
+    margin: 0;
+    text-align: center;
+    padding: $sc-padding-lv6 0 0;
+
+    @media (min-width: $screen-sm-min) {
+        padding-top: $sc-padding-lv5;
+    }
+
+    @media (min-width: $screen-md-min) {
+        text-align: left;
+    }
+}
+.footer-content-nav-list > li {
+    display: inline-block;
+    margin-right: $sc-margin-lv2;
+    font-weight: 300;
+    font-size: $ob-font-size-sh5;
+}
+
+.footer-content-right {
+    @extend .col-md-4;
+    @extend .col-xs-12;
+    text-align:center;
+    font-size: $sc-font-size-m;
+    padding: $sc-padding-lv3 0;
+
+    @media (min-width: $screen-md-min) {
+        text-align: right;
+        padding-top: $sc-padding-lv5;
+        padding-bottom: $sc-padding-lv5;
+        float: right;
+    }
+}
+
+.footer-content-copyright {
+    margin-left:2%;
+    color: $sc-footer-copyright-text-color;
+    display: block;
+    float: right;
+    clear: both;
+}
+
+
+
+
+////////////////////////////////////customisation///////////////////////////////////
+//Footer
+footer#site-footer {
+    background: $theme-footer-bck-color-gral;
+    border-top: 1px solid $theme-footer-bck-color-bottom;
+    margin-top: -1px;
+}
+
+// Top footer
+div.footer-content-box 
+{
+    background: $theme-footer-bck-color-gral; // Content
+    div.footer-content-nav 
+    {
+        @extend .col-md-12;
+        padding:0%;
+    }
+
+ @media (max-width: $screen-sm-max) 
+ {
+ .my_account_footer
+    {
+        margin-left: -4%;
+    }
+ }
+}
+
+.this-full-width 
+{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+    
+div.footer-content-nav-column {
+
+    &:nth-child(4){
+        padding-right:0;
+    }
+
+    padding-top:3%;
+    min-height:285px;
+    @extend .col-md-2;
+    @extend .col-sm-6;
+    @extend .col-xs-6;
+    @extend .col-lg-2;
+    @media (min-width: $screen-sm-min) { display: flow-root; width:25%;}
+    @media (max-width: $screen-xs-min) { display: flow-root; width:50%;}
+    div>p
+        {
+            font-weight:bold;
+            font-size: $ob-font-size-sh4;
+            color: $theme-footer-heading-color;
+            float: left;
+            text-transform: uppercase;
+            text-align: left;
+            width: 100%;
+            margin: $theme-base-size * 4 0;
+            font-family:$ob-font-family2;
+        }
+    ul.footer-content-nav-list,
+    div.footer-content-info 
+    {
+        @extend .this-full-width;
+        min-height: 120px;
+        padding-bottom:25px;
+        @media (max-width: 350px){
+            min-height: 250px;
+        }
+    }
+    ul.footer-content-nav-list li 
+    {
+        @extend .this-full-width;
+        margin-bottom: $theme-base-size;
+        text-align: left;
+        font-weight:normal;
+
+        a   {
+                font-family:$ob-font-family2;
+                color: $theme-footer-ft-color-primary;
+                font-size: 14px;
+                @include transition-duration(.2s);
+                @include transition-timing-function(ease);
+                &:hover 
+                {
+                    color: $theme-primary-color;
+                }
+                @media (max-width: $screen-md-min) { &:hover {
+                            color: $theme-primary-color;
+                        } }
+                @media (max-width: $screen-sm-min) { &:hover {
+                            color: $theme-primary-color;
+                        } }
+                @media (max-width: $screen-xs-min) { &:hover {
+                            color: $theme-primary-color;
+                        } }
+            }
+    }
+
+    
+
+    @media (max-width: $screen-md-min) 
+    {
+        &:last-of-type,
+        &:nth-of-type(3) 
+        {
+            margin-left: 0;
+            //padding-left: 0;
+        }
+        &:nth-of-type(2),
+        &:nth-of-type(4) 
+        {
+            margin-right: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+// Support
+li.footer-support-content {
+    @extend .this-full-width;
+    margin-bottom: 6px;
+    p {
+        color: $theme-footer-ft-color-primary;
+        text-align: left;
+        font-size:$theme-sm-font-size;
+    }
+    span.footer-icons {
+        text-align: left;
+        font-size: $theme-sm-font-size;
+        margin-bottom:3px;
+        @extend .this-full-width;
+        @media (max-width: $screen-sm-min) { font-size: $theme-md-font-size; }
+        @media (max-width: $screen-xs-min) { font-size: $theme-xs-font-size; }
+        a {
+            color: $theme-footer-ft-color-primary;
+            &:hover {color: $theme-primary-color;}
+            @media (max-width: $screen-md-min) { &:hover {
+                        color: $theme-primary-color;
+                    } }
+        @media (max-width: $screen-sm-min) { &:hover {
+                        color: $theme-primary-color;
+                    } }
+        @media (max-width: $screen-xs-min) { &:hover {
+                        color: $theme-primary-color;
+                    } }
+
+            //font-weight: $sc-font-weight-light;
+            text-align: left;
+            font-family:$ob-font-family;
+            i {
+                @extend .fa;
+                font-size: $theme-md-font-size;
+                margin-right: 10px;
+                @media (max-width: $screen-md-min) {
+                        font-size: $sc-base-font-size;
+                        line-height: 23px;
+                        margin-right: 6px;
+                }
+                @media (max-width: $screen-xs-min) {
+                font-size: 11px;
+                line-height: 23px;
+                margin-right: 3px;
+                }
+                &.footer-support-icon-phone { @extend %fa-phone; }
+                &.footer-support-icon-envelope { @extend %fa-envelope-o; }
+            }
+        }
+        
+    }
+    @media (max-width: $screen-xs-min) {
+        p {
+            font-size: $theme-sm-font-size;
+            line-height: 15px;
+        }
+    }
+}
+
+// Form
+div.footer-content-nav-form {
+    // Name & Email input
+    input {
+        @extend .this-full-width;
+        padding: 9px 3%;
+        margin-bottom: 7px;
+        font-size: $sc-small-font-size;
+    } // Subscribe button
+    button {
+        @extend .this-full-width;
+        border-radius: $border-radius-small;
+        height: 33px;
+        text-transform: uppercase;
+        color: $theme-footer-ft-color-btn;
+        background: $theme-footer-bck-color-btn;
+        @include transition-duration(.2s);
+        @include transition-timing-function(ease);
+        &:focus,
+        &:hover,
+        &:active {
+            outline: none;
+            background: $sc-color-tertiary;
+        }
+    }
+}
+
+// Social Icons
+ul.footer-content-social
+{
+    padding-top:25%;
+}
+
+
+.footer-social-facebook {
+    font-size:150%;
+    @extend .fa;
+    @extend %fa-facebook;
+}
+
+.footer-social-twitter{
+    font-size:150%;
+    padding-left:5%;
+    @extend .fa;
+    @extend %fa-twitter;
+    @media (min-width: $screen-sm-min) {
+         padding-left:7%;
+    }
+}
+
+.footer-social-instagram {
+    font-size:150%;
+    padding-left:5%;
+    @extend .fa;
+    @extend %fa-instagram;
+     @media (min-width: $screen-sm-min) {
+         padding-left:7%;
+    }
+}
+
+.footer-social-youtube {
+    font-size:150%;
+    padding-left:5%;
+    @extend .fa;
+    @extend %fa-youtube-play;
+     @media (min-width: $screen-sm-min) {
+         padding-left:7%;
+    }
+}
+.footer-social-googleplus{
+    font-size:150%;
+    padding-left:5%;
+    @extend .fa;
+    @extend %fa-youtube-play;
+     @media (min-width: $screen-sm-min) {
+         padding-left:7%;
+    }
+}
+
+
+
+
+div.footer-content-nav-column-4
+{
+  padding-top:25%; 
+  ul.footer-content-nav-list {
+      text-align:right;
+      li{
+          text-align: right;
+      }
+
+      }
+}
+
+
+img.footer-logo-image
+{
+    max-width: 80%;
+}
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+.site-search {
+    @extend .nav-search;
+    border: none;
+    padding: 0px;
+}
+
+// .site-search-content {
+//     @extend .nav-search-content;
+// }
+.site-search-content-form {}
+
+.site-search-content-input {
+    @extend .nav-search-content-input;
+    @media (min-width: $screen-xs-min) and (max-width: $screen-md-min) {
+        margin-left:50px;
+        width: 93%;
+    }
+    .itemssearcher-input {
+        border: none;
+        border-radius: 30px 0px 0px 30px;
+    }
+    .itemssearcher-input:focus {
+        outline: none;
+        outline-style: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+}
+
+.site-search-input-icon {
+    @extend .nav-search-input-icon;
+    font-size: $sc-font-size-xxl;
+}
+
+.site-search-input-reset {
+    @extend .nav-search-input-reset;
+    right: 0;
+}
+
+.site-search-button-submit {
+    border-radius: 0px 30px 30px 0px;
+    outline: none;
+    border: 0px;
+    background: $ob-color-accent;
+    color: $sc-neutral-shade-0;
+    padding-left:$sc-padding-lv2;
+    padding-right : $sc-padding-lv2;
+    float: right;
+    font-family: $ob-font-family2;
+    font-weight: $sc-font-weight-semibold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:40px !important;
+    @media (max-width: $screen-md-min) {
+        padding: 7px;
+        max-height: 38px;
+    }
+    @media (min-width: $screen-md-min) {
+        visibility: visible;
+    }
+    @media (min-width: $screen-xs-min) and (max-width: $screen-sm-min) {
+        margin-right: 50px;
+    }
+    @media (min-width: $screen-sm-min) and (max-width: $screen-md-min) {
+        margin-right: 62px;
+    }
+}
+
+.fa-test:before {
+    padding-right: 10px;
+    position: relative;
+    top: 2px;
+    content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/search.svg");
+}
+
+.site-search-button-close {
+    @extend .nav-search-button-close;
+}
+
+.site-search-input-reset-icon {
+    @extend .nav-search-input-reset-icon;
+}

@@ -1,0 +1,35 @@
+.shopping-layout {
+    @extend %sc-layout;
+}
+
+.shopping-layout-header {
+
+    box-shadow: 3px 0 6px 0 $sc-color-theme-500;      
+}
+
+.shopping-layout-footer {
+    @extend %sc-footer !optional;
+}
+
+.shopping-layout-breadcrumb,
+.shopping-layout-notifications {
+    @extend .container;
+}
+
+.shopping-layout-no-javascript-msg {
+    @extend .message-warning;
+    width: 100%;
+}
+
+.shopping-layout-content {
+    #facet-browse {
+        background-color: $legend-border-color;
+    }
+}
+.shoppingdomain-layout-breadcrumb{
+    background-color:$legend-border-color;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    width: 100%;
+}

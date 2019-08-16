@@ -1,0 +1,86 @@
+
+.creditcard-edit-form-securitycode-group-input-label{
+      font-size: 12px;
+    padding-top: 4px;
+    width: 25%;
+    color: $ob-color-primary;
+     font-family: $sc-font-family;
+      @media (min-width: 320px) {
+            width: 52%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+           width: 28%;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 25%;
+
+        }
+
+        @media (min-width: $screen-lg-min) {
+           width: 55%;
+        }
+}
+.creditcard-edit-form-securitycode-group-input-icon{
+  width: 8%;
+    padding: 8px 3px 8px 8px;
+    height: 44px;
+    @media (min-width: 320px) {
+             width: 18%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 15%;
+        }
+
+        @media (min-width: $screen-md-min) {
+             width: 10%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 8%;
+        }
+}
+.creditcard-edit-form-securitycode-group {}
+
+.creditcard-edit-form-securitycode-group-label {
+  color: $ob-color-primary;
+}
+
+.creditcard-edit-form-securitycode-group-label-required {
+    @extend .creditcard-edit-form-label-required;
+}
+
+input.creditcard-edit-form-securitycode-group-input {
+    width: 100px;
+    float: left;
+    background: $ob-color-tertiry;
+    border-color:$ob-color-tertiry;
+}
+
+.creditcard-edit-form-securitycode {
+  clear: both;
+}
+
+.creditcard-edit-form-securitycode-controls {
+  @extend .creditcard-edit-form-controls;
+  display:flex;
+ 
+}
+
+.creditcard-edit-form-securitycode-icon-container {
+
+}
+
+.creditcard-edit-form-securitycode-link {
+    float: left;
+    padding: $sc-padding-lv2;
+    display: none;
+}
+
+.creditcard-edit-form-securitycode-icon {
+   @extend .icon-question-circle;
+   color: $sc-color-theme-700;
+   font-size: $sc-font-size-xl;
+}

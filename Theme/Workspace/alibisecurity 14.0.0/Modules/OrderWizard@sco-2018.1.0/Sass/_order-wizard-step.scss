@@ -1,0 +1,123 @@
+.order-wizard-step-header{
+	@extend .wizard-step-header;
+}
+.order-wizard-step-review-wrapper{
+	display: none;
+}
+
+.order-wizard-step-review-wrapper,
+.order-wizard-step-content-wrapper{
+	@extend .row;
+	margin-bottom: 2%;
+	margin-top:5%;
+}
+
+.order-wizard-step-review-main,
+.order-wizard-step-content-main{
+	@extend .col-xs-12;
+	@extend .col-sm-7;
+	@extend .col-md-9;
+	background-color: #fff;
+	display: inline-block;
+	padding: 35px 35px 20px 35px;
+	width: 70%;
+	margin-bottom: 2%;
+	@media (min-width: 320px) {
+           width: 100%;
+           margin-bottom: 10%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 70%;
+            margin-bottom: 2%;
+        }
+
+        @media (min-width: $screen-md-min) {
+           width: 70%;
+           margin-bottom: 2%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+           width: 70%;
+           margin-bottom: 2%;
+        }
+}
+
+.order-wizard-step-review-secondary,
+.order-wizard-step-content-secondary{
+	@extend .col-xs-12;
+	@extend .col-sm-5;
+	@extend .col-md-3;
+	float: right;
+}
+
+.order-wizard-step-content-secondary{
+	/*margin-bottom: $sc-margin-lv4;*/
+	width: 30%;
+		@media (min-width: 320px) {
+           width: 100%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 30%;
+        }
+
+        @media (min-width: $screen-md-min) {
+           width: 30%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+           width: 30%;
+        }
+}
+
+.order-wizard-step-actions{
+	@extend .col-xs-12;
+	@extend .col-sm-7;
+	@extend .col-md-9;
+	width:30%;
+	   @media (min-width: 320px) {
+            width:100%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+          width:30%;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width:30%;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            bwidth:30%;
+        }
+}
+
+.order-wizard-step-message{
+	@extend .wizard-step-message;
+
+	margin-bottom: $sc-margin-lv6 !important;
+}
+
+.order-wizard-step-button-container{
+	@extend .wizard-step-button-container !optional;
+}
+
+.order-wizard-step-button-continue {
+	@extend .wizard-step-button-continue;
+	margin-bottom: $sc-margin-lv2;
+	width: 100%;
+	 border-radius: 0px;
+	background: $ob-color-accent;
+	border:1px solid $ob-color-accent;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding:12px;
+}
+
+.order-wizard-step-button-back{
+	@extend .wizard-step-button-back;
+}
+
+.order-wizard-step-guest-message{}
+.order-wizard-step-title{}

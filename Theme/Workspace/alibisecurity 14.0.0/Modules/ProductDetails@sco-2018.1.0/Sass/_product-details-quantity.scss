@@ -1,0 +1,112 @@
+.product-details-quantity-options-title {
+    text-transform: uppercase;
+    margin-bottom: $sc-margin-lv2;
+    display: block;
+}
+
+.product-details-quantity-options {
+    margin-top: 20px;
+    clear: both;
+
+    [data-validation-error="block"] {
+        margin-top: $sc-margin-lv2;
+    }
+}
+
+.product-details-quantity-options-title {
+    font-weight: $sc-font-weight-bold;
+}
+
+.product-details-quantity-options-title-help {
+    clear: both;
+    display: block;
+    font-weight: $sc-font-weight-light;
+    margin: $sc-margin-lv2 0;
+}
+
+
+
+/* .product-details-quantity-add,
+.product-details-quantity-remove {
+	@extend .button-secondary;
+	border: none;
+	width: $sc-target-size-mobile;
+	height: $sc-target-size-mobile;
+	background-color: $theme-tertiary-color;
+	color: $ob-color-primary;
+	font-size: 25px;
+    font-weight: bolder;
+
+	&:hover, &:active  {
+		color: $sc-neutral-shade-0;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	@media (min-width: $screen-md-min) {
+		display: none;
+	}
+} */
+
+.product-details-quantity-add {
+    @extend .quantity-input-button-add;
+    display: block;
+    background-color: $theme-tertiary-color;
+    color: $ob-color-primary;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.product-details-quantity-remove {
+    @extend .quantity-input-button-remove;
+    display: block;
+    background-color: $theme-tertiary-color;
+    color: $ob-color-primary;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.product-details-quantity-value {
+    @extend .quantity-input;
+    /* height: $sc-target-size-mobile;
+ 	padding:$sc-margin-lv2 $sc-padding-lv3 $sc-margin-lv2 $sc-padding-lv3;
+ 	width: 90px;
+ 	text-align: right;
+	border: 0;
+	-webkit-border-radius: 0 0 0 0;
+	border-radius: 0 0 0 0;
+	display: inline-block; */
+    float: left !important;
+    font-weight: bolder !important;
+    font-size: $theme-xs-font-size * 2 !important;
+    background-color: $ob-color-tertiry !important;
+    border: none !important;
+    font-weight: $theme-font-weight-bold !important;
+}
+
+.product-details-quantity-container {
+    @extend .quantity-input-container;
+}
+
+.opaq {
+    opacity: .2;
+}
+
+.opaq1 {
+    opacity: 1;
+}
+
+.spec-head {
+    text-transform: uppercase;
+    color: #00a7ce;
+}
+
+.read-more-trigger {
+    color: #ef7622;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

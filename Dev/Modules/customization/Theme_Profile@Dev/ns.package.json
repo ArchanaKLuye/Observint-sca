@@ -1,0 +1,14 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Profile@sco-2018.1.0/JavaScript/MyAccount.Profile.js": "JavaScript/MyAccount.Profile.js",
+        "suitecommerce/Profile@sco-2018.1.0/JavaScript/Profile.Information.View.js": "JavaScript/Profile.Information.View.js",
+        "suitecommerce/Profile@sco-2018.1.0/JavaScript/Profile.UpdatePassword.View.js": "JavaScript/Profile.UpdatePassword.View.js"
+    }
+}

@@ -1,0 +1,36 @@
+.contactdetails-details{
+	color: $ob-color-primary;
+	background-color: #e5e5e5;
+	margin-bottom: 30px;
+}
+.contactdetails-details-area{
+	padding: 30px;
+}
+.contactdetails-details-contact-name{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.contactdetails-details-contact-address{
+    margin-bottom: 20px;
+    
+}
+.contactdetails-details-contact-phone{
+	font-weight: 600;
+}
+.contactdetails-details-divider{
+    background-color: darkgrey;
+}
+.contactdetails-details-actions{
+	text-align: right;
+	font-size: 16px;
+    color: $ob-color-primary;
+    font-weight: 600;
+}
+.contactdetails-details-edit{
+	color: $ob-color-primary;
+}
+.contactdetails-details-remove{
+	color: $ob-color-secondary;
+	background-color: #e5e5e5;
+	margin: 10px 40px 10px 40px;
+}

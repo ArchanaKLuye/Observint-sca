@@ -1,0 +1,43 @@
+.global-views-modal-large {
+	@extend .modal-lg;
+}
+.global-views-modal-content {
+	@extend .modal-content;
+	  margin-top: -8px;
+	padding: $sc-margin-lv4 + $sc-margin-lv1;
+	border-radius: 0px;
+	display: block;
+	-webkit-box-shadow: 0 2px 5px transparentize($sc-neutral-shade-500, 1-0.2);
+	box-shadow: 0 2px 5px transparentize($sc-neutral-shade-500, 1-0.2);
+}
+.global-views-modal-content-header {
+	//margin-bottom:$sc-margin-lv4;
+	display: inline-block;
+	width: 100%;
+	    background-color: #00a7ce;
+    padding: 15px;
+}
+.global-views-modal-content-header-close {
+  margin-top: -2px;
+	float:right;
+	font-size:35px;
+	font-weight:$sc-font-weight-normal;
+	line-height:20px;
+	color: $sc-color-theme-500;
+	cursor: pointer;
+	background: none;
+	color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 3px;
+
+}
+.global-views-modal-content-header-title {
+	@extend .modal-title;
+	margin-top: 0px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.global-views-modal-content-body{}

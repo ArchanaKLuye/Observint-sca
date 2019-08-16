@@ -1,0 +1,207 @@
+.cart-detailed {
+    @extend .cart;
+
+    .transaction-line-views-selected-option-color-label-text,
+    .transaction-line-views-tax-label,
+    .cart-item-summary-item-list-actionable-amount-label,
+    .cart-item-summary-item-list-actionable-label-qty {
+        color: $sc-color-copy-light;
+        font-weight: 600;
+        display: block;
+    }
+
+    .transaction-line-views-selected-option {
+        .transaction-line-views-selected-option-label {
+            color: $sc-color-copy-dark;
+            font-weight: 600;
+        }
+    }
+}
+
+.cart-detailed-view-header {}
+
+.cart-detailed-title {
+    @extend .cart-title;
+    
+    color: #435363;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px !important;
+   
+}
+.clear-cart{
+    display: inline-block;
+    color: #435363;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    cursor: pointer;
+
+}
+
+.cart-detailed-title-details-count {
+    @extend .cart-title-details-count;
+    @extend .middle-price;
+}
+
+.cart-detailed-confirm-message {}
+
+.cart-detailed-right {
+    @extend .cart-right;
+    margin-top: $sc-margin-lv4;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+    }
+}
+
+.cart-detailed-body {
+    @extend .cart-body;
+}
+
+.cart-detailed-left {
+    @extend .cart-left;
+}
+
+.cart-detailed-empty {
+    @extend .cart-empty;
+}
+
+.cart-detailed-footer {}
+
+.cart-detailed-header {}
+
+.cart-detailed-savedforlater {
+    @extend .cart-savedforlater;
+    display: none;
+
+    .product-list-details-later {
+        border-top: 1px solid $sc-color-theme-border-light;
+        padding-top: $sc-padding-lv6;
+        border-bottom: 0;
+        margin: 0;
+    }
+
+    .product-list-details-later-button-saveforlater-pusher {
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+}
+
+.cart-detailed-proceed-to-checkout-container {
+    @extend .cart-proceed-to-checkout-container;
+    display: none;
+}
+
+.cart-detailed-proceed-to-checkout {
+    @extend .cart-proceed-to-checkout;
+}
+
+.cart-detailed-body-empty {}
+
+.cart-detailed-body-empty-title {
+    @extend .cart-body-empty-title !optional;
+}
+
+.product-list-details-later {
+    border-top: 1px solid $sc-color-theme-border-light;
+    padding-top: $sc-padding-lv6;
+}
+
+.cart-detailed-row-fluid {}
+
+.cart-detailed-recently-viewed {
+    border-top: 1px solid $sc-color-theme-border-light;
+    padding-top: $sc-padding-lv6;
+}
+
+.cart-detailed-related {
+    h3{
+    text-align: center;
+    color: #435363;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    }
+}
+
+.cart-detailed-correlated {}
+
+.cart-detailed-body-info {}
+
+.cart-detailed-body-empty-info {
+    @extend .cart-body-empty-info;
+}
+
+.cart-detailed-item-view-cell-actionable-table {
+    @extend .transaction-line-views-cell-actionable-table;
+    border-collapse: collapse;
+
+    .transaction-line-views-cell-actionable-table-middle,
+    .transaction-line-views-cell-actionable-table-first,
+    .transaction-line-views-cell-actionable-table-last {
+        padding-bottom: 0;
+
+        @media (min-width: $screen-md-min) {
+            padding-bottom: 80px;
+        }
+    }
+
+    td {
+        padding-bottom: 80px;
+    }
+
+    .quantity-pricing td {
+        padding-bottom: $sc-padding-lv1;
+    }
+}
+
+.cart-detailed-table-row-with-border {}
+
+.cart-detailed-item-free {}
+
+.cart-detailed-item-free-info {
+    @extend .row;
+    margin: 0;
+}
+
+.cart-detailed-item-free-info .global-views-message-info {
+    @extend .col-xs-12;
+    @extend .col-md-8;
+    @extend .col-md-offset-4;
+    @extend .col-lg-offset-3;
+    @extend .col-lg-9;
+}
+.cart-continue{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 10px;
+    text-align: center;    
+    color: #435363;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #435363;
+    padding: 0px 0px;
+    
+}
+.submit-button{
+    background-color: #435363;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.pdp-like-icon{
+    font-size: 20px; 
+    color: white;
+
+    &:before{display:inline-block;width:auto;height:auto;content:"\f060";
+        display:inline-block;
+        font-family: FontAwesome;}
+}
+.icon-shopping-button{
+    transform: rotate(180deg);
+    margin-bottom: -1px;
+}

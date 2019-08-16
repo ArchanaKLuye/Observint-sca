@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Home@sco-2018.1.0/JavaScript/Home.View.js": "JavaScript/Home.View.Extension.js"
+    }
+}

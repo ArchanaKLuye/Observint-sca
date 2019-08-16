@@ -1,0 +1,241 @@
+.profile-information{
+	@extend .box-column-bordered;
+	background-color: #e5e5e5;
+	padding: 0px;
+    margin-bottom: 10px;
+}
+
+.profile-information-button-update{
+	@extend .button-primary;
+	@extend .button-medium;
+	margin-right:$sc-margin-lv2;
+	margin-bottom:$sc-margin-lv2;
+
+
+	@media (min-width: $screen-sm-min) {
+		margin-bottom: 0;
+	}
+}
+.profile-information-form-label {
+	display: inline-block;
+}
+
+.profile-information-form-group-label-required {
+	@extend .input-required;
+}
+.profile-information-button-cancel{
+	@extend .button-secondary;
+	@extend .button-medium;
+}
+
+.profile-information-label{
+	color: $ob-color-primary;
+	margin-top: 5px;
+}
+
+.profile-information-input-large{
+	//@extend .input-large;
+	border: none;
+    background-color: #e5e5e5;
+}
+
+.profile-information-row{}
+.profile-information-form-actions{
+	//margin-top: $sc-margin-lv4;
+	background-color: #e5e5e5;
+	text-align: right;
+	font-size: 16px;
+    color: #435363;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.profile-information-input-required{
+	@extend .input-required;
+}
+
+.profile-information-input-optional{
+	@extend .input-optional;
+}
+
+.profile-information-input-required-reference{
+	@extend .input-required;
+	margin-bottom:$sc-margin-lv4;
+}
+
+.profile-information-button-back {
+	@extend .button-back;
+}
+
+.profile-information-button-back-icon {
+	@extend .button-back-icon;
+}
+
+.profile-information-header{
+	margin-bottom:$sc-margin-lv4;
+}
+
+.profile-information-row-fluid{}
+.profile-information-col{
+	padding: 30px;
+	background-color: #e5e5e5;
+}
+.profile-information-group-form-controls{}
+.profile-information-input-email{}
+.profile-information-change-email-address{}
+
+
+.profileinformation-contact-name{
+    margin-bottom: 20px;
+    font-weight: 600;
+    color:$ob-color-primary;
+}
+.profileinformation-contact-phone{
+	font-weight: 600;
+	color:$ob-color-primary;
+}
+
+.profileinformation-contact-address{
+    margin-bottom: 20px;
+    color:$ob-color-primary;
+}
+
+.personal-edit{
+	color: $ob-color-primary;
+	background-color: #e5e5e5;
+	margin-right: 40px;	
+}
+.profile-information-edit-form-action{
+	margin-top: $sc-margin-lv4;
+	text-align: center;
+}
+
+.profile-information-button-edit{
+	background-color: #435363;
+    border-radius: 0px;
+    border:none;
+    width: 25%;
+    height: 40px;
+    color: white;
+}
+
+.profile-personalinfo-edit-subscription{
+	display: flex;
+    input[type=checkbox] {
+             position: relative;
+               cursor: pointer;
+        }
+        input[type=checkbox]:before {
+             content: "";
+             display: block;
+             position: absolute;
+             width: 13px;
+             height: 13px;
+             top: -1;
+             left: 0;
+             border: 2px solid #435363;
+             border-radius: 4px;
+             background-color: white;
+        }
+        input[type=checkbox]:checked:after {
+             content: "";
+             display: block;
+             width: 3px;
+             height: 6px;
+             border: solid black;
+             border-width: 0 2px 2px 0;
+             -webkit-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             position: absolute;
+             top: 3px;
+             left: 6px;
+        }
+    
+}
+
+.profile-personalinfo-edit-subscription-label{
+    margin-bottom: 20px;
+    color: $ob-color-primary;
+    display: inline-flex;
+}
+.profile-personalinfo-edit-signmeuptext{
+    margin-top: -5px;
+    font-size: 13px;
+}
+
+.login-register-register-form-label{
+    color: #435363;
+    font-size: 12px;
+}
+.countrycodedropdown{
+    //width: 125px;
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    height: 40px;
+}
+
+.phone-no-main{
+    padding: 0px;
+}
+.country-code{
+    padding: 0px;
+}
+.phone-ext-input{
+    border: none;
+    background-color: #e5e5e5;
+}
+.phone-ext{
+    padding: 0px;
+}
+
+.global-views-modal-content-header-close {
+    margin-top: -2px;
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 15px;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 3px;
+}
+.profileinformation-contact-phone-value,
+.profileinformation-contact-email-value{
+    color: $ob-color-primary;
+}
+
+.altphone-fax{
+    padding-right: 0px;
+    @media (min-width: $screen-sm-min) {
+             padding-right: 15px;
+        }
+}
+.fax-label{
+     @media (min-width: 320px) {
+           width:90%;
+        }
+
+        /*@media (min-width: 414px) {
+           width:auto;
+        }
+
+        @media (min-width: $screen-sm-min) {
+             
+            width:auto;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width:auto;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width:auto;
+        }*/
+}
+.phoneno-label{
+    @media (min-width: 411px) {
+           width:85%;
+        }
+}

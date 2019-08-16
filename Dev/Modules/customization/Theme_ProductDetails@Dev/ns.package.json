@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/ProductDetails@sco-2018.1.0/JavaScript/ProductDetails.Base.View.js": "JavaScript/ProductDetails.Base.View.js"
+    }
+}

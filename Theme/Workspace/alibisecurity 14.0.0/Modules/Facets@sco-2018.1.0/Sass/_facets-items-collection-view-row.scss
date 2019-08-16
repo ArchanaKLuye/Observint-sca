@@ -1,0 +1,7 @@
+.facets-items-collection-view-row {
+
+	margin-left:  ceil(($grid-gutter-width / -2));
+    margin-right: floor(($grid-gutter-width / -2));
+	//@extend .row;
+	padding-bottom: $sc-padding-lv3;
+}

@@ -1,0 +1,67 @@
+.creditcard-list-button-back {
+    @extend .button-back;
+}
+
+.creditcard-list {
+    @extend .clearfix;
+}
+
+.creditcard-edit-button-back-icon {
+    @extend .button-back-icon;
+}
+
+.creditcard-list-button-back-icon {
+    @extend .button-back-icon;
+}
+
+.creditcard-list {
+    @extend .address-list;
+}
+
+.creditcard-list-button-container {
+    @extend .address-list-button-container;
+}
+
+.creditcard-list-button {
+    @extend .button-info-cards-new;
+}
+
+.creditcard-list-collection {
+    @extend .row;
+}
+
+.creditcard-list{
+	background-color: white;
+}
+.creditcard-list-pageheader{
+	font-size: 22px;
+    font-weight: 600;
+    color: #00a7ce;
+}
+
+.creditcard-list-title{
+	font-size: 18px;
+	font-weight: 700;
+	color:$ob-color-primary;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.creditcard-list-button-new{
+    border-radius: 0px;
+        background:$ob-color-primary;
+        text-transform:uppercase;
+        padding: 10px 30px 10px 30px;
+        font-weight: 600;
+        color: white;
+    
+    &::before {
+        content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_button1.png");
+        position: relative;
+        top: 4px;
+        left: -10px;
+    }
+    &:hover{
+        color: white;
+    };
+}

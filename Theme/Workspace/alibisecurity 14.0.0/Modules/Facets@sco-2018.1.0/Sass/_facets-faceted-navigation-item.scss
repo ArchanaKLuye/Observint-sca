@@ -1,0 +1,85 @@
+.facet-navigation-item {
+    background-color: #fff;
+
+    @media (min-width: $screen-lg-min) {
+        margin-right: 0px;
+    }
+}
+
+.facets-faceted-navigation-item-icon-ok {
+    @extend .fa;
+}
+
+.facets-faceted-navigation-item-icon-plus {
+    @extend .fa;
+}
+
+.facets-faceted-navigation-item-optionlist-extra-button {
+    @extend .button-small;
+    display: inline-block;
+    margin: $sc-margin-lv2 0;
+    padding: 0;
+}
+
+.facets-faceted-navigation-item-optionlist-extra-wrapper {}
+
+.facets-faceted-navigation-item-facet-group {
+    padding: $sc-margin-lv2 $sc-margin-lv3;
+}
+
+.facets-faceted-navigation-item-facet-group-expander {
+    @extend .facets-faceted-navigation-facet-group-expander;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.facets-faceted-navigation-item-facet-group-expander-icon {
+    @extend .facets-faceted-navigation-facet-group-expander-icon;
+}
+
+.facets-faceted-navigation-item-facet-group-wrapper {}
+
+.facets-faceted-navigation-item-facet-group-content {}
+
+.facets-faceted-navigation-item-facet-optionlist {}
+
+.facets-faceted-navigation-item-facet-optionlist-extra {}
+
+.facets-faceted-navigation-item-facet-group-title {
+    @extend .facets-faceted-navigation-facet-group-title;
+    color: $ob-color-secondary;
+}
+
+.facets-faceted-navigation-item-facet-option {
+    @extend .facets-faceted-navigation-facet-option;
+}
+
+.facets-faceted-navigation-item-facet-option-circle {
+    @extend .facets-faceted-navigation-facet-option-circle;
+}
+
+.facets-faceted-navigation-item-filter-delete {}
+
+.facets-faceted-navigation-item-filter-delete-icon {}
+
+.facets-faceted-navigation-item-alt-caption {
+    display: none;
+}
+
+.facets-faceted-navigation-item-facet-multi {}
+
+
+#facetList_480 {
+    padding: 10px 15px;
+}
+
+.down {
+    -webkit-transition: -webkit-transform 300ms ease !important;
+    -moz-transition: -moz-transform 300ms ease !important;
+    -o-transition: -o-transform 300ms ease !important;
+    transition: transform 300ms ease !important;
+
+    webkit-transform: rotate(0deg) !important;
+    -ms-transform: rotate(0deg) !important;
+    -o-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important;
+}

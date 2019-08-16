@@ -1,0 +1,12 @@
+{
+    "gulp":
+    {
+        "ssp-libraries": [
+            "SuiteScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/LiveOrder@sco-2018.1.0/SuiteScript/LiveOrder.Model.js": "SuiteScript/LiveOrder.Model.js"
+    }
+}

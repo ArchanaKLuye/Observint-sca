@@ -1,0 +1,223 @@
+.product-list-back {
+	@extend .button-back
+}
+
+.product-list-back-icon {
+	@extend .button-back-icon;
+}
+.product-list-details {
+	.product-list-display-full-rating {
+		@extend .clearfix;
+	}
+}
+.product-list-details-header {
+	@include clearfix();
+	border-top: 1px solid $sc-color-theme-border-light;
+}
+
+.product-list-details-title {
+	//padding-top: $sc-padding-lv3;
+	//padding-bottom: $sc-padding-lv3;
+	font-size: 22px;
+	margin-right: 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: $ob-color-primary;
+	@media (min-width: $screen-sm-min){
+		float: left;
+	}
+}
+
+.product-list-details .list-header-view-filter-button {
+	@extend .button-list-header-shrink;
+}
+
+.product-list-details-no-items {
+	padding:$sc-padding-lv8 $sc-padding-lv3 $sc-padding-lv3 $sc-padding-lv3;
+ 	text-align:center;
+}
+
+.product-list-details-button-back {
+	@extend .button-back;
+	display: none;
+}
+
+.product-list-details-button-back-icon {
+	@extend .button-back-icon;
+}
+
+.product-list-details-list-items {
+	@extend .product-list-display-full;
+	@extend .table-row-with-border;
+}
+
+.product-list-details-count{}
+.product-list-details-confirm-message{}
+.product-list-details-remove{
+	//text-align: right;
+    color: #00a7ce;
+    font-weight: 600;
+    margin-right: 25px;
+    padding-top: 5px;
+    /*@media(min-width: 320px){
+    	margin-right: 25px;
+    }
+    @media(min-width: 360px){
+    	margin-right: 25px;
+    }
+    @media(min-width: $screen-xs-min){
+    	margin-right: 200px;
+    }
+    @media(min-width: 640px){
+    	margin-right: 245px;
+    }
+    @media(min-width: $screen-sm-min){
+    	margin-right: 180px;
+    }
+    @media(min-width: $screen-md-min){
+    	margin-right: 330px;
+    }
+    @media(min-width: $screen-lg-min){
+    	margin-right: 580px;
+    }*/
+}
+.product-list-details-back{
+	//text-align: right;
+    color: #00a7ce;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.product-list-details-edit{
+	//text-align: right;
+    color: #00a7ce;
+    font-weight: 600;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+.product-list-details-header1{
+	display: flex;
+}
+.product-list-details-header2{
+	padding: 0px;
+}
+.product-list-details-camera-list-title{
+	font-size: 16px;
+    font-weight: 600;
+    color: $ob-color-primary;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.product-list-details-camera-list-description{
+	font-style: italic;
+    color: #435363;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 85%;
+}
+.product-list-details-camera-list{
+	//background-color: white;
+	padding-left: 0px;
+}
+.product-list-details-button-add-to-cart{
+	border-radius: 0px;
+	background:#ef7622;
+	text-transform:uppercase;
+	padding: 10px 30px 10px 30px;
+	font-weight: 600;
+	color: white;
+	margin: 15px 20%;
+	
+	&::after {
+		content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_button1.png");
+		position: relative;
+		top: 4px;
+		left: 10px;
+	}
+	&:hover{
+		color: white;
+	}
+}
+.product-list-details-lastupdated{
+	color: $ob-color-primary;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.product-list-details-item-actions{
+	color: $ob-color-primary;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.product-list-details-items-add-to-cart{
+	border-radius: 0px;
+	background:#ef7622;
+	text-transform:uppercase;
+	padding: 10px 30px 10px 30px;
+	font-weight: 600;
+	color: white;
+	
+	
+	&::after {
+		content: url("https://www.alibisecurity.ml/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/img/plus_button1.png");
+		position: relative;
+		top: 4px;
+		left: 10px;
+	}
+	&:hover{
+		color: white;
+	}
+}
+.product-list-title{
+	font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.camera-list{
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+     @media(min-width: $screen-lg-min){
+    	min-height: 280px;
+    }
+}
+.item-search{
+	padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+.sku-id{
+	width: 60%;
+    margin-right: 5%;
+}
+.qty{
+	width: 20%;
+}
+.product-list-item-search-row{
+	display: flex;
+}
+.sku{
+	background-color: #e5e5e5;
+    border: none;
+}
+.quantity{
+	background-color: #e5e5e5;
+    border: none;
+}
+.add-row{
+	float: right;
+	padding-right: 55px;
+	color: #00a7ce;
+}
+.product-list-details-camera-list-count{
+	margin-bottom: 30px;
+}
+.product-list-title2{
+	margin-top: 15px;
+	background-color: #435363;
+	display: flex;
+}

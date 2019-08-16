@@ -1,0 +1,18 @@
+{
+    "gulp":
+    {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "ssp-libraries": [
+            "SuiteScript/*.js"
+        ]
+    },
+    "overrides":
+    {
+        "suitecommerce/Address@sco-2018.1.0/JavaScript/Address.Details.View.js": "JavaScript/Address.Details.View.js",
+        "suitecommerce/Address@sco-2018.1.0/JavaScript/Address.Edit.View.js": "JavaScript/Address.Details.View.js",
+        "suitecommerce/Address@sco-2018.1.0/JavaScript/Address.Model.js": "JavaScript/Address.Details.View.js",
+        "suitecommerce/Address@sco-2018.1.0/SuiteScript/Address.Model.js": "SuiteScript/Address.Model.js"
+    }
+}

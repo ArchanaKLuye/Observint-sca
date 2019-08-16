@@ -1,0 +1,17 @@
+{{#if isCurrentItemPurchasable}}
+<div class="cart-add-to-cart-button-container">
+    <div class="cart-add-to-cart-button">
+        <button type="submit" data-type="add-to-cart" data-action="sticky" class="cart-add-to-cart-button-button">
+            {{#if isUpdate}}{{translate 'Update'}}{{else}}{{translate 'ADD TO CART'}}{{/if}}
+            <div class="image-addtocartbtn">
+                <img class="addtocart-btn-image" src="/SSP Applications/NetSuite Inc. - SCA Aconcagua/Development/images/cart plp.svg">
+
+			</div></button />
+    </div>
+</div>
+{{/if}}
+{{!----
+Use the following context variables when customizing this template:
+isCurrentItemPurchasable (Boolean)
+isUpdate (Boolean)
+----}}

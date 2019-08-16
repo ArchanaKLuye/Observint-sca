@@ -1,0 +1,66 @@
+.contactdetails-edit-required{
+	@extend .input-required;
+} 
+.contactdetails-edit-fields{
+	background-color: #ededed;
+    border: none;
+}
+.contactdetails-edit-label{
+	color: $ob-color-primary;
+	margin-bottom: 5px;
+}
+.contactdetails-edit-fields-cell-left{
+	padding-left: 0px;
+}
+.contactdetails-edit-fields-cell-right{
+	padding-right: 0px;
+}
+.contactdetails-edit-fields-group{
+	padding: 0px;
+}
+.contactdetails-edit-form-button-submit{
+	 @extend .button-primary;
+    @extend .button-medium;
+    background-color: #435363;
+    border-radius: 0px;
+    border:none;
+    width: 25%;
+    height: 40px;
+}
+.contactdetails-edit-action{
+	text-align: center;
+}
+
+.contactdetails-edit-checkbox{
+    input[type=checkbox] {
+             position: relative;
+               cursor: pointer;
+        }
+        input[type=checkbox]:before {
+             content: "";
+             display: block;
+             position: absolute;
+             width: 13px;
+             height: 13px;
+             top: 0;
+             left: 0;
+             border: 2px solid #435363;
+             border-radius: 3px;
+             background-color: white;
+        }
+        input[type=checkbox]:checked:after {
+             content: "";
+             display: block;
+             width: 3px;
+             height: 6px;
+             border: solid black;
+             border-width: 0 2px 2px 0;
+             -webkit-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             position: absolute;
+             top: 3px;
+             left: 6px;
+        }
+    
+}

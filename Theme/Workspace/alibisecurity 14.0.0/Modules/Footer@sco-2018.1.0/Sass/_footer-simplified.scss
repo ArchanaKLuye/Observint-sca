@@ -1,0 +1,109 @@
+
+//------------------JJ-------------------
+
+
+
+
+////////////////////////////////////////AC Suite Commerce////////////////////
+.footer-simplified-content{
+    @extend .container;
+    @extend .row;
+    margin: auto;
+}
+
+.footer-simplified-content-nav {
+    @extend .col-md-8;
+    @extend .col-xs-12;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-simplified-content-copyright {
+    @extend .col-md-4;
+    @extend .col-xs-12;
+    text-align:center;
+    font-size: $sc-font-size-m;
+    color: $sc-color-theme-500;
+    padding: $sc-padding-lv3 0;
+
+    @media (min-width: $screen-md-min) {
+        text-align: right;
+        padding-top: $sc-padding-lv5;
+        padding-bottom: $sc-padding-lv5;
+        float: right;
+    }
+}
+
+
+//////////////////////////////////Customisation///////////////////////////
+
+
+div.footer-simplified-content {
+  // Payment Methods
+  div.footer-content-payments { float: right; }
+  // Copyright
+  div.footer-content-copyright { float: left; }
+}
+
+
+
+////////////////////////////Footer Bottom////////////////////////////////
+
+div.footer-bottom-content-box {
+    background: $theme-footer-bck-color-bottom;
+    padding:0px;}
+    div.footer-bottom-section {
+        @extend .container;
+        @extend .row;
+        margin: 0 auto;
+        padding: 6px 0;
+        >div {
+           
+
+            @extend .col-md-3;
+            @extend .col-sm-6;
+        }
+    }
+//}
+
+// Copyright
+div.footer-content-copyright {
+    
+    text-align: left;
+    color: $theme-footer-ft-color-secondary;
+    font-family:$ob-font-family;
+    font-size: $theme-sm-font-size;
+    @media (min-width: $screen-md-min) {
+        padding-top: $theme-base-size * 2;
+        padding-bottom: $theme-base-size * 2;
+        line-height: 37px;
+    }
+  @media (max-width: $screen-md-min) { line-height: 60px; }
+  @media (max-width: $screen-sm-min) { text-align: center; }
+  @media (max-width: $screen-xs-min) { font-size: $theme-sm-font-size; }
+}
+
+// Creditcards
+div.footer-content-payment-img {
+    img {
+        float: right;
+        text-align: right;
+        max-width: 54px;
+        margin: 10px 7px 10px 0;
+        @media (max-width: $screen-sm-min) {
+            float: none;
+            text-align: center;
+        }
+        @media (max-width: $screen-xs-min) {
+            width: 35px;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    @media (max-width: $screen-sm-min) {
+        text-align: center;
+    }
+}
+
+

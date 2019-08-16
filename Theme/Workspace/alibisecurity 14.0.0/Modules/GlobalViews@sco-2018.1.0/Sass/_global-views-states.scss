@@ -1,0 +1,32 @@
+.global-views-states-group-label {
+
+    margin-bottom: 5px;
+    color: #435363;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.global-views-states-group-input,
+.global-views-states-group-select {
+    @extend .input-large;
+}
+
+.global-views-states-optional-label {
+    @extend .input-optional;
+    font-weight: $sc-font-weight-normal;
+    display: inline;
+}
+
+.global-views-states-input-required {
+    @extend .input-required;
+}
+
+.global-views-states-group-form-controls {}
+//JJ-- This might affect the MyAccounts section. Please call using parent class if required//
+select.global-views-states-group-select {
+    width: 100%;
+    background-color: #ededed !important;
+    border: none !important;
+    min-width: 0px !important;
+    height: 40px;
+}

@@ -1,0 +1,1230 @@
+{
+    "name": "SuiteCommerce Advanced Aconcagua",
+    "version": "2.0",
+    "isSCA": true,
+    "buildToolsVersion": "sco-2018.1.0",
+    "folders":
+    {
+        "modules": "Modules",
+        "suitecommerceModules": "Modules/suitecommerce",
+        "customizationModules": "Modules/customization",
+        "extensionsModules": "Modules/extensions",
+        "thirdPartyModules": "Modules/third_parties",
+        "distribution": "LocalDistribution",
+        "deploy": "DeployDistribution"
+    },
+    "modules":
+    {
+        "customization/Theme_Home": "Dev",
+        "customization/Theme_Header": "Dev",
+        "customization/Theme_Accessories": "Dev",
+        "customization/Theme_ProductReviews": "Dev",
+        "customization/Theme_CheckoutApp": "Dev",
+        "customization/Theme_Item": "Dev",
+        "customization/Theme_ProductView": "Dev",
+        "customization/Theme_LiveOrder": "Dev",
+        "customization/Theme_Facets": "Dev",
+        "customization/Theme_Account": "Dev",
+        "customization/Theme_ProductDetails": "Dev",
+        "customization/Theme_UserPreferences" : "Dev",
+        "customization/Theme_Address" : "Dev",
+        "customization/Theme_OrderWizard.Module.Address" : "Dev",
+        "customization/Theme_Transaction.Line.Views" : "Dev",
+        "customization/Theme_Profile" : "Dev",
+        "customization/Theme_ContactDetails" : "Dev",
+        "customization/Theme_AddItemsToList" : "Dev",
+
+        
+        "suitecommerce/Account": "sco-2018.1.0",
+        "suitecommerce/Address": "sco-2018.1.0",
+        "suitecommerce/AjaxRequestsKiller": "sco-2018.1.0",
+        "suitecommerce/APIdocs": "sco-2018.1.0",
+        "suitecommerce/ApplicationSkeleton": "sco-2018.1.0",
+        "suitecommerce/Automation.Core": "sco-2018.1.0",
+        "suitecommerce/Automation.Precondition": "sco-2018.1.0",
+        "suitecommerce/Automation.Scripts": "sco-2018.1.0",
+        "suitecommerce/Automation.Suites": "sco-2018.1.0",
+        "suitecommerce/Automation.RecordsAPI": "sco-2018.1.0",
+        "suitecommerce/Automation.SuiteTalk": "sco-2018.1.0",
+        "suitecommerce/Backbone.CollectionView": "sco-2018.1.0",
+        "suitecommerce/Backbone.CompositeView": "sco-2018.1.0",
+        "suitecommerce/Backbone.FormView": "sco-2018.1.0",
+        "suitecommerce/BackboneExtras": "sco-2018.1.0",
+        "suitecommerce/Balance": "sco-2018.1.0",
+        "suitecommerce/BaseSassStyleguide": "sco-2018.1.0",
+        "suitecommerce/BaseSassStyles": "sco-2018.1.0",
+        "suitecommerce/BootstrapExtras": "sco-2018.1.0",
+        "suitecommerce/BrontoIntegration": "sco-2018.1.0",
+        "suitecommerce/Cart": "sco-2018.1.0",
+        "suitecommerce/Case": "sco-2018.1.0",
+        "suitecommerce/Categories": "sco-2018.1.0",
+        "suitecommerce/CheckoutApplication": "sco-2018.1.0",
+        "suitecommerce/CheckoutSkipLogin": "sco-2018.1.0",
+        "suitecommerce/CMSadapter": "sco-2018.1.0",
+        "suitecommerce/Configuration": "sco-2018.1.0",
+        "suitecommerce/Content": "sco-2018.1.0",
+        "suitecommerce/CookieWarningBanner": "sco-2018.1.0",
+        "suitecommerce/CreditCard": "sco-2018.1.0",
+        "suitecommerce/CreditMemo": "sco-2018.1.0",
+        "suitecommerce/CustomerPayment": "sco-2018.1.0",
+        "suitecommerce/CustomContentType": "sco-2018.1.0",
+        "suitecommerce/CustomFields": "sco-2018.1.0",
+        "suitecommerce/Deposit": "sco-2018.1.0",
+        "suitecommerce/DepositApplication": "sco-2018.1.0",
+        "suitecommerce/ErrorManagement": "sco-2018.1.0",
+        "suitecommerce/ExternalPayment": "sco-2018.1.0",
+        "suitecommerce/Facets": "sco-2018.1.0",
+        "suitecommerce/Footer": "sco-2018.1.0",
+        "suitecommerce/GlobalImages": "sco-2018.1.0",
+        "suitecommerce/GlobalViews": "sco-2018.1.0",
+        "suitecommerce/GoogleAdWords": "sco-2018.1.0",
+        "suitecommerce/GoogleTagManager": "sco-2018.1.0",
+        "suitecommerce/GoogleUniversalAnalytics": "sco-2018.1.0",
+        "suitecommerce/HandlebarsExtras": "sco-2018.1.0",
+        "suitecommerce/Header": "sco-2018.1.0",
+        "suitecommerce/Home": "sco-2018.1.0",
+        "suitecommerce/ImageLoader": "sco-2018.1.0",
+        "suitecommerce/ImageNotAvailable": "sco-2018.1.0",
+        "suitecommerce/Invoice": "sco-2018.1.0",
+        "suitecommerce/Item": "sco-2018.1.0",
+        "suitecommerce/ItemRelations": "sco-2018.1.0",
+        "suitecommerce/ItemsSearcher": "sco-2018.1.0",
+        "suitecommerce/jQueryExtras": "sco-2018.1.0",
+        "suitecommerce/jQuery.Deferred": "sco-2018.1.0",
+        "suitecommerce/ListHeader": "sco-2018.1.0",
+        "suitecommerce/LiveOrder": "sco-2018.1.0",
+        "suitecommerce/LivePayment": "sco-2018.1.0",
+        "suitecommerce/Location.SCA": "sco-2018.1.0",
+        "suitecommerce/LoginRegister": "sco-2018.1.0",
+        "suitecommerce/Main": "sco-2018.1.0",
+        "suitecommerce/MenuTree": "sco-2018.1.0",
+        "suitecommerce/Merchandising": "sco-2018.1.0",
+        "suitecommerce/MyAccountApplication": "sco-2018.1.0",
+        "suitecommerce/MyAccountApplication.SCA": "sco-2018.1.0",
+        "suitecommerce/NativesExtras": "sco-2018.1.0",
+        "suitecommerce/NavigationHelper": "sco-2018.1.0",
+        "suitecommerce/Newsletter": "sco-2018.1.0",
+        "suitecommerce/Notifications": "sco-2018.1.0",
+        "suitecommerce/OrderHistory": "sco-2018.1.0",
+        "suitecommerce/OrderWizard": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Address": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.CartItems": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.CartSummary": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Confirmation": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.MultiShipTo.EnableLink": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.NonShippableItems": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Package": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.PaymentMethod": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.PromocodeForm": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.PromocodeNotifications": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Register": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Shipmethod": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.SubmitButton": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.TermsAndConditions": "sco-2018.1.0",
+        "suitecommerce/OrderWizard.Module.Title": "sco-2018.1.0",
+        "suitecommerce/Overview": "sco-2018.1.0",
+        "suitecommerce/PaymentWizard": "sco-2018.1.0",
+        "suitecommerce/PickupInStore": "sco-2018.1.0",
+        "suitecommerce/PluginContainer": "sco-2018.1.0",
+        "suitecommerce/PrintStatement": "sco-2018.1.0",
+        "suitecommerce/Product": "sco-2018.1.0",
+        "suitecommerce/ProductDetails": "sco-2018.1.0",
+        "suitecommerce/ProductDetailToQuote": "sco-2018.1.0",
+        "suitecommerce/ProductLine": "sco-2018.1.0",
+        "suitecommerce/ProductList": "sco-2018.1.0",
+        "suitecommerce/ProductReviews": "sco-2018.1.0",
+        "suitecommerce/ProductViews": "sco-2018.1.0",
+        "suitecommerce/Profile": "sco-2018.1.0",
+        "suitecommerce/PromocodeSupport": "sco-2018.1.0",
+        "suitecommerce/QuantityPricing": "sco-2018.1.0",
+        "suitecommerce/QuickAdd": "sco-2018.1.0",
+        "suitecommerce/QuickOrder": "sco-2018.1.0",
+        "suitecommerce/QuickOrderAccessPoints": "sco-2018.1.0",
+        "suitecommerce/Quote": "sco-2018.1.0",
+        "suitecommerce/QuoteToSalesOrder": "sco-2018.1.0",
+        "suitecommerce/QuoteToSalesOrderValidator": "sco-2018.1.0",
+        "suitecommerce/QuoteToSalesOrderWizard": "sco-2018.1.0",
+        "suitecommerce/Receipt": "sco-2018.1.0",
+        "suitecommerce/RecentlyViewedItems": "sco-2018.1.0",
+        "suitecommerce/RecordViews": "sco-2018.1.0",
+        "suitecommerce/ReleaseMetadata": "sco-2018.1.0",
+        "suitecommerce/ReorderItems": "sco-2018.1.0",
+        "suitecommerce/RequestQuoteAccessPoints": "sco-2018.1.0",
+        "suitecommerce/RequestQuoteWizard": "sco-2018.1.0",
+        "suitecommerce/ReturnAuthorization": "sco-2018.1.0",
+        "suitecommerce/SC": "sco-2018.1.0",
+        "suitecommerce/SC.Utils": "sco-2018.1.0",
+        "suitecommerce/SC.Application": "sco-2018.1.0",
+        "suitecommerce/SC.Extensions": "sco-2018.1.0",
+        "suitecommerce/SCA": "sco-2018.1.0",
+        "suitecommerce/SC.CCT.Html": "sco-2018.1.0",
+        "suitecommerce/Sensors": "sco-2018.1.0",
+        "suitecommerce/Session": "sco-2018.1.0",
+        "suitecommerce/ShoppingApplication": "sco-2018.1.0",
+        "suitecommerce/SiteSearch": "sco-2018.1.0",
+        "suitecommerce/SiteSettings": "sco-2018.1.0",
+        "suitecommerce/SocialSharing": "sco-2018.1.0",
+        "suitecommerce/SspLibraries": "sco-2018.1.0",
+        "suitecommerce/StoreItem": "sco-2018.1.0",
+        "suitecommerce/StoreLocator": "sco-2018.1.0",
+        "suitecommerce/StoreLocatorAccessPoints": "sco-2018.1.0",
+        "suitecommerce/StoreLocatorGoogleMapsImplementation": "sco-2018.1.0",
+        "suitecommerce/StoreLocatorReferenceMapImplementation": "sco-2018.1.0",
+        "suitecommerce/Tracker": "sco-2018.1.0",
+        "suitecommerce/TrackingServices": "sco-2018.1.0",
+        "suitecommerce/Transaction": "sco-2018.1.0",
+        "suitecommerce/Transaction.Line.Views": "sco-2018.1.0",
+        "suitecommerce/TransactionHistory": "sco-2018.1.0",
+        "suitecommerce/UnitTestHelper": "sco-2018.1.0",
+        "suitecommerce/UrlHelper": "sco-2018.1.0",
+        "suitecommerce/Utilities": "sco-2018.1.0",
+        "suitecommerce/Wizard": "sco-2018.1.0",
+        "third_parties/almond": "0.3.3",
+        "third_parties/backbone.js": "1.1.2-custom",
+        "third_parties/backbone.stickit": "0.9.2",
+        "third_parties/backbone.validation": "0.9.1-custom",
+        "third_parties/bignumber": "4.0.4",
+        "third_parties/bootstrap-datepicker": "1.3.1",
+        "third_parties/fallbackjs": "1.1.7",
+        "third_parties/font-awesome": "4.2.0-custom",
+        "third_parties/handlebars": "4.0.10",
+        "third_parties/html5shiv": "3.7.3",
+        "third_parties/jasmine": "2.3.2",
+        "third_parties/jasmine-ajax": "2.0.2",
+        "third_parties/jasmine2-typechecking-matchers": "1.1.0",
+        "third_parties/jQuery": "1.11.1-custom",
+        "third_parties/jQuery-bxslider": "4.1.2-custom",
+        "third_parties/jQuery-Cookie": "1.4.1",
+        "third_parties/jQuery-Zoom": "1.7.20",
+        "third_parties/json2": "2.0.2",
+        "third_parties/require.js": "2.3.5",
+        "third_parties/respond": "1.4.2-custom",
+        "third_parties/sass.js": "0.10.8",
+        "third_parties/twitter-bootstrap-sass": "3.3.7",
+        "third_parties/twitter-typeahead": "0.10.5",
+        "third_parties/underscore.js": "1.8.3"
+    },
+    "tasksConfig":
+    {
+        "local":
+        {
+            "http":
+            {
+                "port": 7777
+            },
+            "lessSourcemap": false,
+            "jsRequire": false
+        },
+        "javascript": [
+        {
+            "entryPoint": "SC.Shopping.Starter",
+            "exportFile": "shopping.js",
+            "dependencies": [
+                "GoogleMap",
+                "GoogleMap.Configuration",
+                "Backbone.View.Plugins",
+                "Location",
+                "jQuery.html",
+                "PickupInStore",
+                "ProductDetails",
+                "Shopping.Profile",
+                "NavigationHelper",
+                "NavigationHelper.Plugins.Standard",
+                "NavigationHelper.Plugins.DataTouchPoint",
+                "NavigationHelper.Plugins.Modals",
+                "NavigationHelper.Plugins.Pushers",
+                "Item",
+                "ProductViews",
+                "Transaction.Line.Views",
+                "Cart",
+                "Content",
+                "Categories",
+                "Facets",
+                "GoogleUniversalAnalytics",
+                "GoogleTagManager",
+                "Home",
+                "PromocodeSupport",
+                "ItemRelations",
+                "RecentlyViewedItems",
+                "SocialSharing",
+                "SocialSharing.Plugins.Facebook",
+                "SocialSharing.Plugins.Twitter",
+                "SocialSharing.Plugins.GooglePlus",
+                "SocialSharing.Plugins.Pinterest",
+                "SocialSharing.Plugins.Pinterest.Hover",
+                "SocialSharing.Plugins.AddThis",
+                "ProductReviews",
+                "AjaxRequestsKiller",
+                "CookieWarningBanner",
+                "ImageNotAvailable",
+                "ErrorManagement",
+                "Merchandising",
+                "Merchandising.Context.DefaultHandlers",
+                "ProductList",
+                "UrlHelper",
+                "CMSadapterInstaller",
+                "RequestQuoteAccessPoints",
+                "QuickOrderAccessPoints",
+                "BrontoIntegration",
+                "Sensors",
+                "QuantityPricing",
+                "QuickOrder",
+                "StoreLocatorAccessPoints",
+                "Newsletter",
+                "ProductDetailToQuote",
+                "UserPreferences",
+                "StoreLocator",
+                "SC.CCT.Html"
+            ],
+            "amdclean": false,
+            "amdConfig":
+            {
+                "paths":
+                {
+                    "jQuery": "jquery-1.11.1.custom",
+                    "jasmine-ajax": "mock-ajax",
+                    "Backbone": "backbone.custom",
+                    "Backbone.Validation": "backbone-validation",
+                    "jQuery.bxSlider": "jquery.bxslider.custom",
+                    "Handlebars": "handlebars.runtime-v4.0.10",
+                    "typeahead": "typeahead.bundle"
+                },
+                "shim":
+                {
+                    "jQuery":
+                    {
+                        "exports": "jQuery"
+                    },
+                    "json2":
+                    {
+                        "exports": "JSON"
+                    },
+                    "jquery.zoom":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "jQuery.bxSlider":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap-datepicker":
+                    {
+                        "deps": [
+                            "jQuery",
+                            "bootstrap"
+                        ]
+                    },
+                    "Backbone.Validation":
+                    {
+                        "deps": [
+                            "Backbone"
+                        ]
+                    },
+                    "typeahead":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    }
+                },
+                "map":
+                {
+                    "jquery.cookie":
+                    {
+                        "jquery": "jQuery"
+                    }
+                },
+                "findNestedDependencies": true
+            }
+        },
+        {
+            "entryPoint": "SC.MyAccount.Starter",
+            "exportFile": "myaccount.js",
+            "dependencies": [
+                "Backbone.View.Plugins",
+                "Location",
+                "PickupInStore",
+                "jQuery.html",
+                "MyAccount.Profile",
+                "Overview",
+                "Item",
+                "ProductViews",
+                "Transaction.Line.Views",
+                "Cart",
+                "Address",
+                "Content",
+                "CreditCard",
+                "Categories",
+                "ExternalPayment",
+                "OrderHistory",
+                "ReturnAuthorization",
+                "ReorderItems",
+                "Receipt",
+                "NavigationHelper",
+                "NavigationHelper.Plugins.Standard",
+                "NavigationHelper.Plugins.DataTouchPoint",
+                "NavigationHelper.Plugins.Modals",
+                "NavigationHelper.Plugins.Pushers",
+                "AjaxRequestsKiller",
+                "ErrorManagement",
+                "GoogleUniversalAnalytics",
+                "GoogleTagManager",
+                "Merchandising",
+                "Balance",
+                "Invoice",
+                "LivePayment",
+                "PaymentWizard",
+                "TransactionHistory",
+                "ProductList",
+                "PrintStatement",
+                "Quote",
+                "QuoteToSalesOrderWizard",
+                "RequestQuoteAccessPoints",
+                "QuickOrderAccessPoints",
+                "RequestQuoteWizard",
+                "Case",
+                "BrontoIntegration",
+                "CMSadapterInstaller",
+                "Sensors",
+                "QuantityPricing",
+                "QuickOrder",
+                "GoogleMap",
+                "GoogleMap.Configuration",
+                "StoreLocatorAccessPoints",
+                "SC.CCT.Html",
+                "ContactDetails"
+            ],
+            "amdclean": false,
+            "amdConfig":
+            {
+                "paths":
+                {
+                    "jQuery": "jquery-1.11.1.custom",
+                    "jasmine-ajax": "mock-ajax",
+                    "Backbone": "backbone.custom",
+                    "Backbone.Validation": "backbone-validation",
+                    "jQuery.bxSlider": "jquery.bxslider.custom",
+                    "Handlebars": "handlebars.runtime-v4.0.10",
+                    "typeahead": "typeahead.bundle"
+                },
+                "shim":
+                {
+                    "jQuery":
+                    {
+                        "exports": "jQuery"
+                    },
+                    "json2":
+                    {
+                        "exports": "JSON"
+                    },
+                    "jquery.zoom":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "jQuery.bxSlider":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap-datepicker":
+                    {
+                        "deps": [
+                            "jQuery",
+                            "bootstrap"
+                        ]
+                    },
+                    "Backbone.Validation":
+                    {
+                        "deps": [
+                            "Backbone"
+                        ]
+                    },
+                    "typeahead":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    }
+                },
+                "map":
+                {
+                    "jquery.cookie":
+                    {
+                        "jquery": "jQuery"
+                    }
+                },
+                "findNestedDependencies": true
+            }
+        },
+        {
+            "entryPoint": "SC.Checkout.Starter",
+            "exportFile": "checkout.js",
+            "dependencies": [
+                "Backbone.View.Plugins",
+                "jQuery.html",
+                "Location",
+                "PickupInStore",
+                "Checkout.Profile",
+                "Item",
+                "ProductViews",
+                "Transaction.Line.Views",
+                "Cart",
+                "LoginRegister",
+                "CreditCard",
+                "Content",
+                "Address",
+                "CustomFields",
+                "OrderWizard",
+                "Categories",
+                "ExternalPayment",
+                "NavigationHelper",
+                "NavigationHelper.Plugins.Standard",
+                "NavigationHelper.Plugins.DataTouchPoint",
+                "NavigationHelper.Plugins.Modals",
+                "NavigationHelper.Plugins.Pushers",
+                "SocialSharing",
+                "SocialSharing.Plugins.Facebook",
+                "SocialSharing.Plugins.Twitter",
+                "SocialSharing.Plugins.GooglePlus",
+                "SocialSharing.Plugins.Pinterest",
+                "SocialSharing.Plugins.Pinterest.Hover",
+                "SocialSharing.Plugins.AddThis",
+                "AjaxRequestsKiller",
+                "RequestQuoteAccessPoints",
+                "QuickOrderAccessPoints",
+                "RequestQuoteWizard",
+                "ErrorManagement",
+                "GoogleUniversalAnalytics",
+                "GoogleAdWords",
+                "GoogleTagManager",
+                "Merchandising",
+                "CheckoutSkipLogin",
+                "ImageNotAvailable",
+                "BrontoIntegration",
+                "CMSadapterInstaller",
+                "Sensors",
+                "GoogleMap",
+                "GoogleMap.Configuration",
+                "StoreLocatorAccessPoints",
+                "StoreLocator",
+                "SC.CCT.Html"
+            ],
+            "amdclean": false,
+            "amdConfig":
+            {
+                "paths":
+                {
+                    "jQuery": "jquery-1.11.1.custom",
+                    "jasmine-ajax": "mock-ajax",
+                    "Backbone": "backbone.custom",
+                    "Backbone.Validation": "backbone-validation",
+                    "jQuery.bxSlider": "jquery.bxslider.custom",
+                    "Handlebars": "handlebars.runtime-v4.0.10",
+                    "typeahead": "typeahead.bundle"
+                },
+                "shim":
+                {
+                    "jQuery":
+                    {
+                        "exports": "jQuery"
+                    },
+                    "json2":
+                    {
+                        "exports": "JSON"
+                    },
+                    "jquery.zoom":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "jQuery.bxSlider":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    },
+                    "bootstrap-datepicker":
+                    {
+                        "deps": [
+                            "jQuery",
+                            "bootstrap"
+                        ]
+                    },
+                    "Backbone.Validation":
+                    {
+                        "deps": [
+                            "Backbone"
+                        ]
+                    },
+                    "typeahead":
+                    {
+                        "deps": [
+                            "jQuery"
+                        ]
+                    }
+                },
+                "map":
+                {
+                    "jquery.cookie":
+                    {
+                        "jquery": "jQuery"
+                    }
+                },
+                "findNestedDependencies": true
+            }
+        }],
+        "ssp-libraries":
+        {
+            "entryPoint": "SCA",
+            "dependencies": [
+                "Application",
+                "Account.ForgotPassword.ServiceController",
+                "Account.Login.ServiceController",
+                "Account.Register.ServiceController",
+                "Account.RegisterAsGuest.ServiceController",
+                "Account.ResetPassword.ServiceController",
+                "Address.ServiceController",
+                "Case.Fields.ServiceController",
+                "Case.ServiceController",
+                "Categories.ServiceController",
+                "CreditCard.ServiceController",
+                "CreditMemo.ServiceController",
+                "CustomerPayment.ServiceController",
+                "Deposit.ServiceController",
+                "DepositApplication.ServiceController",
+                "LiveOrder.GiftCertificate.ServiceController",
+                "LiveOrder.Line.ServiceController",
+                "LiveOrder.ServiceController",
+                "LivePayment.ServiceController",
+                "Newsletter.ServiceController",
+                "ReorderItems.ServiceController",
+                "OrderHistory.ServiceController",
+                "PrintStatement.ServiceController",
+                "ProductList.ServiceController",
+                "ProductList.Item.ServiceController",
+                "ProductReviews.ServiceController",
+                "Profile.ServiceController",
+                "SiteSettings.ServiceController",
+                "Quote.ServiceController",
+                "Receipt.ServiceController",
+                "ReturnAuthorization.ServiceController",
+                "TransactionHistory.ServiceController",
+                "ReleaseMetadata",
+                "QuoteToSalesOrderValidator.Model",
+                "QuoteToSalesOrder.ServiceController",
+                "Accessories.ServiceController",
+                "CMSadapter.Model",
+                "Invoice.ServiceController",
+                "Transaction.ServiceController",
+                "Location.ServiceController",
+                "StoreLocator.ServiceController",
+                "Location.ServiceController",
+                "ExternalPayment.Model",
+                "SC.BaseComponent",
+                "Cart.Component",
+                "ContactDetails.ServiceController",
+                "AddItemsToList.ServiceController"
+            ],
+            "exportFile": "ssp_libraries.js",
+            "amdConfig":
+            {
+                "paths":
+                {
+                    "Backbone.Validation": "backbone-validation.server.custom"
+                },
+                "shim":
+                {
+                    "Backbone.Validation":
+                    {
+                        "exports": "Backbone.Validation"
+                    }
+                }
+            }
+        },
+        "sass":
+        {
+            "ignorableClasses":
+            {
+                "application": [
+                    "add-this-btn",
+                    "addthis_button_",
+                    "alert",
+                    "collapse",
+                    "collapsed",
+                    "control",
+                    "control-group",
+                    "country",
+                    "error",
+                    "fade",
+                    "form-inline",
+                    "hide",
+                    "hidden",
+                    "in",
+                    "quantity-",
+                    "lg2sm-first",
+                    "lg2sm",
+                    "md2sm",
+                    "middle-fold",
+                    "muted",
+                    "sc-highlighted",
+                    "stock",
+                    "update-internalid-",
+                    "content-banner",
+                    "active",
+                    "banner-content-top",
+                    "banner-section-top",
+                    "banner-section-bottom",
+                    "banner-footer",
+                    "banner-header-top",
+                    "banner-header-bottom",
+                    "banner-image-top",
+                    "banner-image-bottom",
+                    "banner-content-bottom",
+                    "banner-details-bottom",
+                    "disabled",
+                    "white-border",
+                    "uncollapsible",
+                    "option-active",
+                    "form-actions",
+                    "alert-",
+                    "tranid",
+                    "bxslider",
+                    "center-block",
+                    "is-required",
+                    "modal-dialog",
+                    "banner-breadcrumb-top",
+                    "banner-breadcrumb-bottom",
+                    "loading",
+                    "highlight",
+                    "alert-error",
+                    "alert-error-code",
+                    "contact_info",
+                    "typeahead",
+                    "typeahead-image",
+                    "wizard-step-navigation-divider-",
+                    "content",
+                    "item-",
+                    "highlight",
+                    "menu-tree-node-submenu-level-",
+                    "selected",
+                    "-controls",
+                    "-controls-group",
+                    "pac-container"
+                ],
+                "sco-2018.1.0": [
+                    "cart-item-actions-item-list-actionable-edit-content-remove"
+                ]
+            },
+            "ignorableSelector": [
+                "data-pusher=\"sc-pushable-md\"",
+                "data-type=\"sc-pusher\"",
+                "data-type=\"option\"",
+                "data-action=\"sc-pushing\"",
+                "data-pusher=\"sc-pushable-xs\"",
+                "data-validation-error=\"block\"",
+                "type=number",
+                "disabled"
+            ],
+            "applications": [
+            {
+                "name": "Shopping",
+                "exportFile": "shopping.css",
+                "dependencies": [
+                    {
+                        "module": "twitter-bootstrap-sass",
+                        "include": [
+                            "variables",
+                            "mixins",
+                            "normalize",
+                            "print",
+                            "grid",
+                            "tables",
+                            "buttons",
+                            "component-animations",
+                            "dropdowns",
+                            "button-groups",
+                            "input-groups",
+                            "modals",
+                            "popovers",
+                            "progress-bars",
+                            "tooltip",
+                            "utilities"
+                        ]
+                    },
+                    {
+                        "module": "font-awesome",
+                        "include": [
+                            "font-awesome"
+                        ]
+                    },
+                    {
+                        "module": "BaseSassStyles",
+                        "include": [
+                            "main-variables",
+                            "main-reference-theme",
+                            "main-base",
+                            "main-atoms",
+                            "main-molecules",
+                            "molecules/datepicker"
+                        ]
+                    },
+                    "ShoppingApplication",
+                    "Backbone.CollectionView",
+                    "BackboneExtras",
+                    "Cart",
+                    "CookieWarningBanner",
+                    "ErrorManagement",
+                    "Facets",
+                    "Footer",
+                    {
+                        "module": "GlobalViews",
+                        "include": [
+                            "global-views-back-to-top",
+                            "global-views-star-rating",
+                            "global-views-rating-by-star",
+                            "global-views-host-selector",
+                            "global-views-currency-selector",
+                            "global-views-message",
+                            "global-views-modal",
+                            "global-views-pagination",
+                            "global-views-breadcrumb"
+                        ]
+                    },
+                    {
+                        "module": "Header",
+                        "include": [
+                            "header",
+                            "header-menu",
+                            "header-sidebar",
+                            "header-menu-myaccount",
+                            "header-mini-cart",
+                            "header-mini-cart-item-cell",
+                            "header-profile",
+                            "header-logo"
+                        ]
+                    },
+                    "Home",
+                    "ProductDetails",
+                    "ProductViews",
+                    "ProductLine",
+                    "ItemRelations",
+                    "Transaction.Line.Views",
+                    "Merchandising",
+                    {
+                        "module": "ProductList",
+                        "include": [
+                            "product-list-control",
+                            "product-list-control-single",
+                            "product-list-control-item",
+                            "product-list-control-new-item",
+                            "product-list-details-later",
+                            "product-list-details-later-macro",
+                            "product-list-deletion"
+                        ]
+                    },
+                    "ListHeader",
+                    "ProductReviews",
+                    "RecentlyViewedItems",
+                    "ItemsSearcher",
+                    "SiteSearch",
+                    "SocialSharing",
+                    "CMSadapter",
+                    "RequestQuoteAccessPoints",
+                    "QuickOrderAccessPoints",
+                    "QuickOrder",
+                    "QuickAdd",
+                    "QuantityPricing",
+                    "StoreLocatorAccessPoints",
+                    "StoreLocator",
+                    "Newsletter",
+                    "ProductDetailToQuote",
+                    "PickupInStore",
+                    "Location.SCA",
+                    "Notifications"
+                ]
+            },
+            {
+                "name": "MyAccount",
+                "exportFile": "myaccount.css",
+                "dependencies": [
+                    {
+                        "module": "font-awesome",
+                        "include": [
+                            "font-awesome"
+                        ]
+                    },
+                    {
+                        "module": "twitter-bootstrap-sass",
+                        "include": [
+                            "variables"
+                        ]
+                    },
+                    {
+                        "module": "BaseSassStyles",
+                        "include": [
+                            "main-variables"
+                        ]
+                    },
+                    {
+                        "module": "twitter-bootstrap-sass",
+                        "include": [
+                            "mixins",
+                            "normalize",
+                            "print",
+                            "grid",
+                            "tables",
+                            "buttons",
+                            "component-animations",
+                            "dropdowns",
+                            "button-groups",
+                            "input-groups",
+                            "modals",
+                            "popovers",
+                            "progress-bars",
+                            "tooltip",
+                            "utilities"
+                        ]
+                    },
+                    {
+                        "module": "BaseSassStyles",
+                        "include": [
+                            "main-variables",
+                            "main-reference-theme",
+                            "main-base",
+                            "main-atoms",
+                            "main-molecules",
+                            "molecules/datepicker"
+                        ]
+                    },
+                    {
+                        "module": "MyAccountApplication",
+                        "include": [
+                            "myaccount-layout.scss"
+                        ]
+                    },
+                    "Address",
+                    "Backbone.CollectionView",
+                    "BackboneExtras",
+                    "Case",
+                    "Cart",
+                    "CreditCard",
+                    "ErrorManagement",
+                    "GlobalViews",
+                    "Transaction.Line.Views",
+                    "ItemRelations",
+                    "ProductDetails",
+                    "ProductViews",
+                    "ProductLine",
+                    "Merchandising",
+                    "ListHeader",
+                    "MenuTree",
+                    "OrderHistory",
+                    "Overview",
+                    "Profile",
+                    "QuickAdd",
+                    "QuantityPricing",
+                    "Quote",
+                    "RequestQuoteAccessPoints",
+                    "QuickOrderAccessPoints",
+                    "RequestQuoteWizard",
+                    "Receipt",
+                    "ReorderItems",
+                    "RecordViews",
+                    "ReturnAuthorization",
+                    {
+                        "module": "Header",
+                        "include": [
+                            "header",
+                            "header-menu",
+                            "header-sidebar",
+                            "header-menu-myaccount",
+                            "header-simplified",
+                            "header-mini-cart",
+                            "header-mini-cart-item-cell",
+                            "header-profile",
+                            "header-logo"
+                        ]
+                    },
+                    "ItemsSearcher",
+                    "SiteSearch",
+                    "StoreLocatorAccessPoints",
+                    "StoreLocator",
+                    "Footer",
+                    "PrintStatement",
+                    "Deposit",
+                    "DepositApplication",
+                    "PaymentWizard",
+                    {
+                        "module": "OrderWizard.Module.Address",
+                        "include": [
+                            "order-wizard-address-module",
+                            "order-wizard-address-cell",
+                            "order-wizard-address-row"
+                        ]
+                    },
+                    "OrderWizard.Module.PaymentMethod",
+                    "OrderWizard.Module.Title",
+                    "QuoteToSalesOrderWizard",
+                    "OrderWizard.Module.CartSummary",
+                    "OrderWizard.Module.CartItems",
+                    "OrderWizard.Module.Shipmethod",
+                    "OrderWizard.Module.SubmitButton",
+                    "OrderWizard.Module.TermsAndConditions",
+                    "CustomerPayment",
+                    "CreditMemo",
+                    "TransactionHistory",
+                    "Balance",
+                    "Wizard",
+                    "Invoice",
+                    {
+                        "module": "ProductList",
+                        "include": [
+                            "product-list-added-to-cart",
+                            "product-list-bulk-actions",
+                            "product-list-control-item",
+                            "product-list-control-new-item",
+                            "product-list-control",
+                            "product-list-deletion",
+                            "product-list-control-single",
+                            "product-list-details",
+                            "product-list-details-later",
+                            "product-list-details-later-macro",
+                            "product-list-display-full",
+                            "product-list-list-details",
+                            "product-list-lists",
+                            "product-list-new",
+                            "product-list-edit-item"
+                        ]
+                    },
+                    "Location.SCA",
+                    "Notifications",
+                    "Theme_ContactDetails"
+                ]
+            },
+            {
+                "name": "Checkout",
+                "exportFile": "checkout.css",
+                "dependencies": [
+                    {
+                        "module": "twitter-bootstrap-sass",
+                        "include": [
+                            "variables",
+                            "mixins",
+                            "normalize",
+                            "print",
+                            "grid",
+                            "tables",
+                            "buttons",
+                            "component-animations",
+                            "dropdowns",
+                            "button-groups",
+                            "input-groups",
+                            "modals",
+                            "popovers",
+                            "progress-bars",
+                            "tooltip",
+                            "utilities"
+                        ]
+                    },
+                    {
+                        "module": "font-awesome",
+                        "include": [
+                            "font-awesome"
+                        ]
+                    },
+                    {
+                        "module": "BaseSassStyles",
+                        "include": [
+                            "main-variables",
+                            "main-reference-theme",
+                            "main-base",
+                            "main-atoms",
+                            "main-molecules",
+                            "molecules/datepicker"
+                        ]
+                    },
+                    "CheckoutApplication",
+                    "Backbone.CollectionView",
+                    "BackboneExtras",
+                    "Address",
+                    "ReorderItems",
+                    "RecordViews",
+                    "Cart",
+                    "CreditCard",
+                    "ErrorManagement",
+                    "GlobalViews",
+                    "Transaction.Line.Views",
+                    "Merchandising",
+                    "LoginRegister",
+                    {
+                        "module": "OrderHistory",
+                        "include": [
+                            "order-history-list-tracking-number"
+                        ]
+                    },
+                    "OrderWizard",
+                    "OrderWizard.Module.Address",
+                    "OrderWizard.Module.Register",
+                    "OrderWizard.Module.Confirmation",
+                    "OrderWizard.Module.CartSummary",
+                    "OrderWizard.Module.CartItems",
+                    "OrderWizard.Module.PromocodeForm",
+                    "OrderWizard.Module.PromocodeNotifications",
+                    "OrderWizard.Module.NonShippableItems",
+                    "OrderWizard.Module.PaymentMethod",
+                    "ProductDetails",
+                    "ProductViews",
+                    "ProductLine",
+                    "ItemRelations",
+                    "OrderWizard.Module.Package",
+                    "OrderWizard.Module.Shipmethod",
+                    "OrderWizard.Module.SubmitButton",
+                    "OrderWizard.Module.TermsAndConditions",
+                    "OrderWizard.Module.Title",
+                    "OrderWizard.Module.MultiShipTo.EnableLink",
+                    "RequestQuoteAccessPoints",
+                    "QuickOrderAccessPoints",
+                    "RequestQuoteWizard",
+                    "ItemsSearcher",
+                    "SiteSearch",
+                    "SocialSharing",
+                    "Wizard",
+                    {
+                        "module": "Header",
+                        "include": [
+                            "header",
+                            "header-menu",
+                            "header-sidebar",
+                            "header-menu-myaccount",
+                            "header-simplified",
+                            "header-mini-cart",
+                            "header-mini-cart-item-cell",
+                            "header-profile",
+                            "header-logo"
+                        ]
+                    },
+                    "StoreLocator",
+                    "StoreLocatorAccessPoints",
+                    "Footer",
+                    "Location.SCA",
+                    "Notifications"
+                ]
+            }]
+        },
+        "deploy":
+        {
+            "scriptId": "customscript_ns_sca_deployer_aconcagua",
+            "deployId": "customdeploy_ns_sca_deployer_aconcagua",
+            "publicList": [
+                "services",
+                "javascript",
+                "img",
+                "css",
+                "css_ie",
+                "fonts",
+                "font-awesome",
+                "font-awesome/custom",
+                "languages"
+            ],
+            "backup": true
+        }
+    },
+    "automation-bundle":
+    {
+        "clean": [
+            "gulp/custom-jscs",
+            "gulp/jscs-rules",
+            "gulp/jsformatter",
+            "gulp/tasks/*",
+            "gulp/unit-test",
+            "!gulp/tasks/automation.js",
+            "!gulp/tasks/automation-selectors.js",
+            "Modules/third_parties",
+            "Modules/suitecommerce/*/*",
+            "!Modules/suitecommerce/*",
+            "!Modules/suitecommerce/*/Automation",
+            "!Modules/suitecommerce/**/ns.package.json"
+        ],
+        "cleanKeys":
+        {
+            "distro": [
+                "^copy$",
+                "^release$"
+            ],
+            "nspackage": [
+                "^unit-test.*",
+                "^services",
+                "^javascript",
+                "^ssp-libraries",
+                "^templates",
+                "^sass"
+            ],
+            "package": [
+                ".*sass.*"
+            ]
+        }
+    },
+    "unbuild":
+    {
+        "enforceUnitTests": false
+    },
+    "theme_metadata":
+    {
+        "name": "Suite_Commerce_Base_Theme",
+        "fantasyName": "SuiteCommerce Base Theme",
+        "vendor": "SuiteCommerce",
+        "version": "18.1.0",
+        "target": "SCA,SCS"
+    },
+    "app_manifest":
+    {
+        "type": "SCA",
+        "version": "18.1.0",
+        "application": [
+            "shopping",
+            "myaccount",
+            "checkout"
+        ],
+        "extensible_resources": [
+            "skins",
+            "javascript",
+            "ssp-libraries",
+            "sass",
+            "templates",
+            "services",
+            "configuration",
+            "assets"
+        ]
+    },
+    "license":
+    {
+        "text": "\n\t© 2017 NetSuite Inc.\n\tUser may not copy, modify, distribute, or re-bundle or otherwise make available this code;\n\tprovided, however, if you are an authorized user with a NetSuite account or log-in, you\n\tmay use this code subject to the terms that govern your access and use.\n"
+    },
+    "releaseMetadata": "../../distros/Release/SCA_Aconcagua.xml"
+}

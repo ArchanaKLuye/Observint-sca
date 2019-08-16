@@ -1,0 +1,109 @@
+.order-wizard-confirmation-module {
+	display: block;
+	padding: 35px;
+	//background: $sc-color-success-background;
+	//border: 1px solid $sc-color-success-border;
+	border-radius: $sc-border-radius;
+	margin-bottom: $sc-margin-lv6;
+	text-align: center;
+}
+.order-wizard-confirmation-module-title {
+	//color: $sc-color-success;
+	color: #00a7ce;
+	margin: 0 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 3%;
+	font-weight:600;
+}
+.order-wizard-confirmation-module-body {
+	//color: $sc-color-success;
+	color: #435363;
+	padding-top: 3%;
+}
+.order-wizard-confirmation-module-continue {
+	@extend .button-large;
+	@extend .button-secondary;
+	display:inline-block;
+	margin-top: $sc-margin-lv3;
+	margin-right: $sc-margin-lv4;
+	background-color: #ef7622;
+	border-radius: unset;
+	border: none;
+	width: 280px;
+		@media (min-width: 320px) {
+            width: 100%; 
+        }
+
+        @media (min-width: $screen-sm-min) {
+            width: 280px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 280px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: 280px; 
+        }
+}
+
+.order-wizard-confirmation-module-download-pdf {
+	@extend .button-large;
+	@extend .button-tertiary;
+	display:inline-block;
+	margin-top: $sc-margin-lv3;
+	background-color: #435363;
+	color: white;
+    border-radius: unset;
+    border: none;
+    width: 280px;
+    margin-right: 5%;
+    	@media (min-width: 320px) {
+            margin-right: 0%;
+            width: 100%; 
+        }
+
+        @media (min-width: $screen-sm-min) {
+            margin-right: 0%;
+            width: 280px;
+        }
+
+        @media (min-width: $screen-md-min) {
+             margin-right: 0%;
+             width: 280px;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin-right: 5%;
+            width: 280px; 
+        }
+}
+.order-wizard-confirmation-module-title-main{
+	text-align: center;
+	color: #435363;
+	margin: 0 0 10px;
+	@media (min-width :$screen-lg-min){
+	font-size: 30px;
+	}
+}
+
+.order-id{
+	color: #00a7ce;
+	text-decoration: underline;
+}
+
+.order-wizard-confirmation-module-body-id {
+	color: #435363;
+	font-weight: bold;
+}
+.review-actions{
+	padding-top: 3%;
+	margin-left: 5%;
+}
+
+.order-wizard-confirmation-module-body-support {
+	color: #435363;
+	padding-top: 3%;
+	font-size: small;
+}
