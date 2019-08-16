@@ -1,5 +1,5 @@
 <div class="address-details">
-	<div class="address-details-container" data-id="{{internalid}}" {{#if isManageOptionsSpecified}} data-manage="{{manageOption}}" {{/if}}>
+	<div id="UI" class="address-details-container" data-id="{{internalid}}" {{#if isManageOptionsSpecified}} data-manage="{{manageOption}}" {{/if}}>
 		<address>
 			{{#if showMultiSelect}}
 				<div class="address-details-container-multiselect-address-selector" >
